@@ -100,7 +100,7 @@ Usuário|Necessidade|Solução Atual|Solução Proposta
 Pesquisadores e Estudantes|Plataforma para encontrar dados|Jornais e noticiarios|Plataforma que possiblita, ao usuario, pegar os dados desejados a qualquer momento.
 ### 3.6 Ambiente  do Usuário
 
-&emsp;&emsp;Aplicativo mobile ou projeto web.
+&emsp;&emsp;Projeto web.
 
 ### 3.7 Alternativas e Concorrência 
 ***
