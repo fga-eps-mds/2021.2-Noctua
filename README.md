@@ -24,5 +24,11 @@
 |Joao Victor Correia de Oliveira  |https://github.com/CorreiaJV       |
 |Pedro Henrique Nogueira Gonçalves|https://github.com/phnog           |
 |Iago Cabral de Paula             |https://github.com/iagocabral      |
+|Murilo Perazzo Barbosa Souto     |https://github.com/murilopbs       |
+|Ian da Costa Gama                |https://github.com/ian-dcg         |
+|Matheus Henrick Dutra dos Santos |https://github.com/MatheusHenrickSantos|
+|Charles Manrique Serafim Morais  |https://github.com/charles-serafim |
+|Júlio César Martins França       |https://github.com/Julio-eng       |
+|Igor Thiago Lima de Santana      |https://github.com/Alladin-51      |
 
 ## Releases
