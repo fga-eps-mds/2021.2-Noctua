@@ -1,4 +1,9 @@
 # Documento de Visão
+## Histórico de revisão
+Data|Versão|Descrição|Autor(es)
+-|-|-|-
+31/01/2022|1.0|Abertura do documento de visão|Mateus Caltabiano, Matheus Soares, Pedro Henrique
+11/02/2022|1.1|Adição dos tópicos 3.7, 4, 5, 6 e 7|Mateus Caltabiano
 ## 1. Introdução
 ### 1.1 Objetivo
 
@@ -104,8 +109,55 @@ Pesquisadores e Estudantes|Plataforma para encontrar dados|Jornais e noticiarios
 
 ### 3.7 Alternativas e Concorrência 
 ***
+#### 3.7.1 Portal da transparência
+&emsp;&emsp;É uma plataforma do governo lançada pela Controladoria-Geral da União, onde qualquer cidadão pode encontrar diversas informações relacionadas à gestão pública do Brasil. As informações são disponibilizadas de diversas formas, como: painéis, consultas detalhadas, gráficos, dados abertos.
 
+## 4. Visão geral do produto
 
+### 4.1 Perspectiva do produto
+&emsp;&emsp;O site tem como objetivo principal tornar a busca de dados importantes para jornalistas e pesquisadores uma tarefa mais simples, possibilitando a visualização organizada dos dados com diversas possibilidades de filtros e gráficos.
+
+### 4.2 Resumo das capacidades
+Benefício|Recursos de suporte
+-|-
+Facilitar a visualização de dados do governo|O site traz diversas funcionalidades que permitem um entendimento mais fácil dos dados
+
+### 4.3 Suposições e dependências
+- O usuário deverá possuir um computador com acesso à internet
+
+## 5. Recursos do produto
+- Visualização de tabelas
+- Visualização de gráficos
+- Filtragem de dados
+- Comunicação com o usuário (por meio de formulário)
+
+## 6. Restrições
+
+### 6.1 Restrições de design
+- O design deve ser de fácil entendimento, para que o usuário desfrute das funcionalidades naturalmente, sem nenhuma necessidade de tutoriais ou conhecimentos específicos
+
+### 6.2 Restrições de uso
+- É necessário um computador para a utilização do produto
+
+## 7. Requisitos do produto
+### 7.1 Requisitos funcionais
+Identificador|Requisito|Prioridade
+-|-|-
+RF1|Permitir que o usuário possa pesquisar dados|Média
+RF2|Criar um histórico de pesquisa da sessão|Baixa
+RF3|Feedback do usuário via formulário|Baixa
+RF4|Salvar no banco de dados as informações que serão exibidas|Alta
+RF5|Permitir que o usuário possa aplicar filtros nas pesquisas|Média
+RF6|Gerar gráficos dos dados de acordo com a necessidade|Alta
+RF7|Buscar dados na api Brasil.io caso não estejam salvos no banco|Alta
+RF8|Verificar se o dado requisitado já está salvo no banco|Alta
+### 7.2 Requisitos não-funcionais
+Identificador|Requisito
+-|-
+RNF1|Suportar para principais navegadores web atuais
+RNF2|ambiente de produção deve ser configurado de modo que sempre contenha uma versão testada e estável
+RNF3|O ambiente de homologação deve ser configurado de modo que as versões mais recentes sejam testadas
+RNF4|O ambiente de desenvolvimento deve ser configurado de modo que todos utilizem as mesmas versões das linguagens e frameworks
 
 
 
