@@ -145,7 +145,7 @@ Identificador|Requisito|Prioridade
 -|-|-
 RF1|Permitir que o usuário possa pesquisar dados|Média
 RF2|Criar um histórico de pesquisa da sessão|Baixa
-RF3|Feedback do usuário via formulário|Baixa
+RF3|Permitir feedback do usuário via formulário|Baixa
 RF4|Salvar no banco de dados as informações que serão exibidas|Alta
 RF5|Permitir que o usuário possa aplicar filtros nas pesquisas|Média
 RF6|Gerar gráficos dos dados de acordo com a necessidade|Alta
@@ -154,8 +154,8 @@ RF8|Verificar se o dado requisitado já está salvo no banco|Alta
 ### 7.2 Requisitos não-funcionais
 Identificador|Requisito
 -|-
-RNF1|Suportar para principais navegadores web atuais
-RNF2|ambiente de produção deve ser configurado de modo que sempre contenha uma versão testada e estável
+RNF1|Ser compatível com os principais navegadores web atuais
+RNF2|O ambiente de produção deve ser configurado de modo que sempre contenha uma versão testada e estável
 RNF3|O ambiente de homologação deve ser configurado de modo que as versões mais recentes sejam testadas
 RNF4|O ambiente de desenvolvimento deve ser configurado de modo que todos utilizem as mesmas versões das linguagens e frameworks
 
