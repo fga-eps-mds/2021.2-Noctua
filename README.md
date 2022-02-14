@@ -23,7 +23,7 @@
 |Matheus Moreira Lopes Perillo    |https://github.com/MatheusPerillo  |
 |Joao Victor Correia de Oliveira  |https://github.com/CorreiaJV       |
 |Pedro Henrique Nogueira Gonçalves|https://github.com/phnog           |
-|Iago Cabral de Paula             |https://github.com/iagocabral      |
+|Iago de Paula Cabral             |https://github.com/iagocabral      |
 |Murilo Perazzo Barbosa Souto     |https://github.com/murilopbs       |
 |Ian da Costa Gama                |https://github.com/ian-dcg         |
 |Matheus Henrick Dutra dos Santos |https://github.com/MatheusHenrickSantos|
