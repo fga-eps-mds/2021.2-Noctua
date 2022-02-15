@@ -30,5 +30,6 @@
 |Charles Manrique Serafim Morais  |https://github.com/charles-serafim |
 |Júlio César Martins França       |https://github.com/Julio-eng       |
 |Igor Thiago Lima de Santana      |https://github.com/Alladin-51      |
+|Fellipe Pereira da Costa Silva   |https://github.com/fellipepcs      |
 
 ## Releases
