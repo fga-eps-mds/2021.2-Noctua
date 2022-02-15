@@ -1,3 +1,15 @@
+# Branch
+Padronização das branches no projeto. 
+
+## Histórico de Versões
+
+
+| Data       | Versão | Descrição                                 | Autor             |
+| :--------: | :----: | :----------:                              | :---------------: |
+| 15/02/2022 |  1.0   | Criação da política de branch             | [Fellipe Pereira da Costa Silva](https://github.com/fellipepcs)|
+
+
+
 ### Prefixos:
 - ```feature```
 - ```hotfix```
