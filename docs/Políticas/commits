@@ -8,6 +8,7 @@ Padronização dos commits no projeto.
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
 | 15/02/2022 |  1.0  | Criação da política de commits | [Fellipe Pereira da Costa Silva](https://github.com/fellipepcs)|
+| 15/02/2022 |  2.0  | Correção nas referências| [Fellipe Pereira da Costa Silva](https://github.com/fellipepcs)|
 
 ## Semântica do Commit
 
@@ -44,6 +45,6 @@ git commit -m "feat(#02): botão na página inicial"
 
 ## Referências
 
-DARTORA, João. Tudo o que você precisa saber sobre commits semânticos. *Ilegra*. Disponível em: <https://ilegra.com/blog/tudo-o-que-voce-precisa-saber-sobre-commits-semanticos/>. Acesso em: 09 de ago. de 2021.
+DARTORA, João. Tudo o que você precisa saber sobre commits semânticos. *Ilegra*. Disponível em: <https://ilegra.com/blog/tudo-o-que-voce-precisa-saber-sobre-commits-semanticos/>. Acesso em: 15 de fev. de 2022.
 
 Políticas de Commit. Disponível em: <https://github.com/fga-eps-mds/2021.1-AlligaBot/edit/main/docs/>. Acesso em: 14 de fev. de 2022.
