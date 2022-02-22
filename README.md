@@ -31,5 +31,6 @@
 |Júlio César Martins França       |https://github.com/Julio-eng       |
 |Igor Thiago Lima de Santana      |https://github.com/Alladin-51      |
 |Fellipe Pereira da Costa Silva   |https://github.com/fellipepcs      |
+|Matheus Moreira da Silva Vieira  |https://github.com/matheusmsvieira |
 
 ## Releases
