@@ -18,20 +18,20 @@ O projeto visa utilizar dados disponibilizados no site [brasil.io](https://brasi
 O produto consiste em um site voltado para jornalistas e emissoras de Televisão, que disponibiliza de forma gráfica e simplificada dados sobre os gastos dos deputados.
 
 ## 3. Escopo
-### 4.1. Objetivos
+### 3.1. Objetivos
 
 O objetivo do projeto é facilitar o trabalho dos jornalistas e das emissoras mostrando, de maneira simples e prática, os dados referentes aos gastos dos deputados. Principalmente em época de eleições, onde a busca por essas informações aumenta consideravelmente.
 
-### 4.1. Requerimentos de alto nivel
+### 3.2. Requerimentos de alto nivel
 A tabela abaixo apresenta os requerimentos que o projeto/pruduto deve atingir para que os objetivos do projeto/cliente sejam satisfeitos.
 Req. # | I Requirement Description
 ---|---
-### 4.1. Principais entregas
+### 3.3. Principais entregas
 Data | Descrição 
 ---|---
 08/03/2022 | Release 01: Entrega da documentação com uma pequena demosntração do produto
 26/04/2022 | Release 02: Entrega do minimal valuable product (MVP) e do proof of concept (Poc)
-## 5. Duração
+## 4. Duração
 
 Inicialmente, foi definido que o tempo de duração do projeto é de 3,27 meses, tendo início no dia 18/01/2022 e fim no dia 26/04/2022. Sendo a entrega final o MVP(Minimo produto viável) e a Poc(Prova de conceito).
 
@@ -50,16 +50,16 @@ Sprint 9 | 29/03/2022 | 05/04/2022
 Sprint 10 | 05/04/2022 | 12/04/2022
 Sprint 11 | 12/04/2022 | 19/04/2022
 Sprint 12 | 19/04/2022 | 26/04/2022
-## 6. Estimativa de custos
-## 7. Suposições, restrições e riscos
-### 7.1. Suposições
+## 5. Estimativa de custos
+## 6. Suposições, restrições e riscos
+### 6.1. Suposições
 Esta seção identifica as afirmações que achamos ser verdadeiras quando criamos o documento para começar o projeto.
-### 7.2. Restrições
+### 6.2. Restrições
 Identifica as limitações que devemos levar em conta enquanto fazemos o projeto.
-### 7.3. Riscos
+### 6.3. Riscos
 Os riscos que podem atrapalhar o andamento do projeto.
-## 8. Organização do projeto
-### 8.1. Equipe envolvida
+## 7. Organização do projeto
+### 7.1. Equipe envolvida
 Papel | Responsabilidade | Estudante 
 ---|---|---
 Scrum Master | O Scrum Master é responsável pela implementação do Scrum tal como definido no Guia do Scrum. Ajudando todos a compreender a teoria e a prática do Scrum, tanto dentro da Scrum Team como dentro da organização. |[@Charles-serafim](https://github.com/charles-serafim) 
@@ -67,11 +67,11 @@ Product Owner | O Product Owner é responsável por maximizar o valor do produto
 Arquiteto de Software | este profissional é responsável por garantir o seguimento das diretrizes de um projeto de desenvolvimento de software que normalmente são: qualidade dos sistemas, contexto organizacional, funcionalidade, usabilidade, performance, desempenho e baixo custo de investimento. | [@ian-dcg](https://github.com/ian-dcg)  
 Devops | O devOps permite a integração das equipes, padronizando e implementando mais velocidade nos processos. Sua atuação agrega um ciclo de planejamento e idealização, seguindo pelo desenvolvimento até o feedback do resultado final. | 
 Desenvolvedores | Os Desenvolvedores são as pessoas da Scrum Team que estão empenhados em criar qualquer aspecto de um Increment utilizável em cada Sprint. | [@Alladin-51](https://github.com/Alladin-51), [@MatheusHenrickSantos](https://github.com/MatheusHenrickSantos),  [@murilopbs](https://github.com/murilopbs) 
-### 8.2. Stakeholders
+### 7.2. Stakeholders
 Nome | Descrição 
 ---|---
 Jornalistas/Emissoras de TV | Interessados nos dados referentes aos gastos dos deputados para produzir matérias e reportagens.
-## 9. Referências
+## 8. Referências
 [Termo de abertura do projeto Acácia](https://fga-eps-mds.github.io/2019.2-Acacia/#/project_charter?id=_2-descri%c3%a7%c3%a3o-do-projeto)
 
 [CDC project charter template](https://www.nyu.edu/content/dam/nyu/hr/documents/Project_Charter_Template.doc)
