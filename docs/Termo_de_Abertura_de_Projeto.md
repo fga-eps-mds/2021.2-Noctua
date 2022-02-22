@@ -3,8 +3,9 @@
 ## Histórico de Revisão
 Data | Versão | Descrição | Autor
 ---|---|---|---
-2/2/2022 | 1.0 | Criação do TAP | [@Julio-eng](https://github.com/Julio-eng) / [@Alladin-51](https://github.com/Alladin-51)
-7/2/2022 | 1.1 | Atualização do TAP | [@Julio-eng](https://github.com/Julio-eng) / [@Alladin-51](https://github.com/Alladin-51)
+02/02/2022 | 1.0 | Criação do TAP | [@Julio-eng](https://github.com/Julio-eng) / [@Alladin-51](https://github.com/Alladin-51)
+07/02/2022 | 1.1 | Atualização do TAP | [@Julio-eng](https://github.com/Julio-eng) / [@Alladin-51](https://github.com/Alladin-51)
+22/02/2022 | 1.2 | Atualização do TAP | [@MatheusHenrickSantos](https://github.com/MatheusHenrickSantos) / 
 ## 1. Introdução
 Este documento tem como finalidade destacar o foco do projeto, mostrando o objetivo, as principais entregas, a duração, as estimativas de custo e os riscos envolvidos.
 
@@ -22,7 +23,7 @@ O produto consiste em um site voltado para jornalistas e emissoras de Televisão
 
 O objetivo do projeto é facilitar o trabalho dos jornalistas e das emissoras mostrando, de maneira simples e prática, os dados referentes aos gastos dos deputados. Principalmente em época de eleições, onde a busca por essas informações aumenta consideravelmente.
 
-### 4.1. Requerimentos de alto nivel
+### 4.2. Requerimentos de alto nivel
 A tabela abaixo apresenta os requerimentos que o projeto/pruduto deve atingir para que os objetivos do projeto/cliente sejam satisfeitos.
 Requerimento | Descrição
 ---|---
@@ -31,7 +32,7 @@ RF2	| Criar um histórico de pesquisa da sessão
 RF3	| Permitir feedback do usuário via formulário
 RF5	| Permitir que o usuário possa aplicar filtros nas pesquisas
 RF6	| Gerar gráficos dos dados de acordo com a necessidade
-### 4.1. Principais entregas
+### 4.3. Principais entregas
 Data | Descrição 
 ---|---
 08/03/2022 | Release 01: Entrega da documentação com uma pequena demosntração do produto
@@ -59,8 +60,8 @@ Sprint 12 | 19/04/2022 | 26/04/2022
 ## 7. Riscos
 Risco | Prenvenção/Ação
 ---|---
-Comunicação dentro dos squads| Fazer uso das ferramentas de comunição (whatsapp/Telegram), além das reuniões semanais.
-Comunicação entre squads| Estabelecer meios comunicação entre os membros de cada squad com a mesma função.
+Comunicação dentro dos squads | Fazer uso das ferramentas de comunicação (Whatsapp/Telegram), além das reuniões semanais.
+Comunicação entre squads | Estabelecer meios comunicação entre os membros de cada squad com a mesma função.
 Desistência | Estimular a participação e evitar a sobrecarga dos membros dos squads. E em caso de desistência o grupo deve ser reorganizado.
 Problemas pessoais e de saúde | Organizar o grupo para que, no caso de ausência de um membro, outro assumir.
 ## 8. Organização do projeto
