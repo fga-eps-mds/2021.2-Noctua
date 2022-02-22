@@ -5,7 +5,7 @@ Data | Versão | Descrição | Autor
 ---|---|---|---
 02/02/2022 | 1.0 | Criação do TAP | [@Julio-eng](https://github.com/Julio-eng) / [@Alladin-51](https://github.com/Alladin-51)
 07/02/2022 | 1.1 | Atualização do TAP | [@Julio-eng](https://github.com/Julio-eng) / [@Alladin-51](https://github.com/Alladin-51)
-22/02/2022 | 1.2 | Atualização do TAP | [@MatheusHenrickSantos](https://github.com/MatheusHenrickSantos) / 
+22/02/2022 | 1.2 | Atualização do TAP | [@MatheusHenrickSantos](https://github.com/MatheusHenrickSantos) / [@Alladin-51](https://github.com/Alladin-51)
 ## 1. Introdução
 Este documento tem como finalidade destacar o foco do projeto, mostrando o objetivo, as principais entregas, a duração, as estimativas de custo e os riscos envolvidos.
 
