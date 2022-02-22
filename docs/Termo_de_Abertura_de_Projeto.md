@@ -24,8 +24,13 @@ O objetivo do projeto é facilitar o trabalho dos jornalistas e das emissoras mo
 
 ### 4.1. Requerimentos de alto nivel
 A tabela abaixo apresenta os requerimentos que o projeto/pruduto deve atingir para que os objetivos do projeto/cliente sejam satisfeitos.
-Req. # | I Requirement Description
+Requerimento | Descrição
 ---|---
+RF1 |	Permitir que o usuário possa pesquisar dados
+RF2	| Criar um histórico de pesquisa da sessão
+RF3	| Permitir feedback do usuário via formulário
+RF5	| Permitir que o usuário possa aplicar filtros nas pesquisas
+RF6	| Gerar gráficos dos dados de acordo com a necessidade
 ### 4.1. Principais entregas
 Data | Descrição 
 ---|---
@@ -51,13 +56,13 @@ Sprint 10 | 05/04/2022 | 12/04/2022
 Sprint 11 | 12/04/2022 | 19/04/2022
 Sprint 12 | 19/04/2022 | 26/04/2022
 ## 6. Estimativa de custos
-## 7. Suposições, restrições e riscos
-### 7.1. Suposições
-Esta seção identifica as afirmações que achamos ser verdadeiras quando criamos o documento para começar o projeto.
-### 7.2. Restrições
-Identifica as limitações que devemos levar em conta enquanto fazemos o projeto.
-### 7.3. Riscos
-Os riscos que podem atrapalhar o andamento do projeto.
+## 7. Riscos
+Risco | Prenvenção/Ação
+---|---
+Comunicação dentro dos squads| Fazer uso das ferramentas de comunição (whatsapp/Telegram), além das reuniões semanais.
+Comunicação entre squads| Estabelecer meios comunicação entre os membros de cada squad com a mesma função.
+Desistência | Estimular a participação e evitar a sobrecarga dos membros dos squads. E em caso de desistência o grupo deve ser reorganizado.
+Problemas pessoais e de saúde | Organizar o grupo para que, no caso de ausência de um membro, outro assumir.
 ## 8. Organização do projeto
 ### 8.1. Equipe envolvida
 Papel | Responsabilidade | Estudante 
