@@ -2,10 +2,11 @@
 
 ## Histórico de Revisão
 
-| Data       | Versão | Descrição             | Autor               |
-| ---------- | ------ | --------------------- | ------------------- |
-| 29/01/2022 | 1.0    | Abertura do Documento | João Victor Correia |
-| 31/01/2022 | 1.0.1  | Adição visão lógica   | João Victor Correia |
+| Data       | Versão | Descrição                          | Autor               |
+| ---------- | ------ | ---------------------------------- | ------------------- |
+| 29/01/2022 | 1.0    | Abertura do Documento              | João Victor Correia |
+| 31/01/2022 | 1.0.1  | Adição visão lógica                | João Victor Correia |
+| 15/02/2022 | 1.0.2  | Mudança de tecnologia do Front-end | João Victor Correia |
 
 ## 1. Introdução
 
@@ -73,12 +74,11 @@
 
 ### 2.2 Front-End
 
-#### 2.2.1 Flutter
+#### 2.2.1 React
 
-<p align = "justify"> &emsp;&emsp;O Flutter é um framework desenvolvido pela Google na linguagem Dart e permite que sejam criadas aplicações nativas para os aparelhos iOS e Android. Por ter essa facilidade de desenvolvimento para dois sistemas diferentes, o framework tem crescido bastante e tornado cada vez maior a quantidade de informação para aprendizado.</p>
+<p align = "justify"> &emsp;&emsp;O React é uma biblioteca front-end e tem como um de seus objetivos facilitar a conexão entre diferentes partes de uma página, portanto seu funcionamento acontece através do que chamamos de componentes. Em outras palavras, podemos imaginar que o React divide uma tela em diversos componentes para, então, trabalhar sobre eles de maneira individual.</p>
+<p align = "justify" > &emsp;&emsp; Isso torna o React uma tecnologia muito flexível para a solução de problemas e para a construção de interfaces reutilizáveis, uma vez que cada um destes componentes pode ser manipulado de maneira distinta. </p>
 <p align = "justify"> &emsp;&emsp; Além disso, por ser um framework que possui uma curva de aprendizado muito boa e alguns dos integrantes do grupo já terem conhecimento prévio relacionado à linguagem, ela foi selecionada para atuar no front-end.</p>
-<p align = "justify"> &emsp;&emsp; Outro ponto importante na escolha desse framework se deve ao fato do Dart ser otimizado bem como ser especializado para criação de interfaces para usuários através do uso dos widgets (estrutura baseada no React). Assim também, o uso de <b>Blocs</b> permite que o software seja dividido em questão de interface de usuário e regras de negócio, e o uso de <b> 
-Stream</b> permite eventos assíncronos no aplicativo.</p>
 
 ### 2.3 Banco de Dados
 
@@ -100,7 +100,7 @@ Stream</b> permite eventos assíncronos no aplicativo.</p>
 
 #### 3.2.1 Compatibilidade
 
-- O aplicativo será compatível com os aparelhos celulares que possuem o sistema operacional Android e tem acesso à Play Store, bem como é necessário o acesso à internet.
+- A aplicação será compatível com os principais navegadores da atualidade tendo um enfoque maior no Google Chrome na sua versão desktop e mobile. Será necessário o acesso a internet.
 
 #### 3.2.2 Usabilidade
 
@@ -114,24 +114,24 @@ Stream</b> permite eventos assíncronos no aplicativo.</p>
 
 ![Visão Lógica](img/visao_logica.png)
 
-<p align = "justify"> &emsp;&emsp; As ações do usuário no ambiente mobile serão interpretadas pelo Flutter como gestos, onde cada gesto está associado com um evento que irá disparar uma ação. Algumas dessas ações poderão ser tratadas no lado do cliente (client side), como ações de iteratividade que não precisam de comunicação externa.</p>
+<p align = "justify"> &emsp;&emsp; As ações do usuário no ambiente web serão interpretadas pelo React como gestos, onde cada gesto está associado com um evento que irá disparar uma ação. Algumas dessas ações poderão ser tratadas no lado do cliente (client side), como ações de iteratividade que não precisam de comunicação externa.</p>
 
 <p align = "justify"> &emsp;&emsp;Já em outras ações será preciso consultar um banco de dados no lado do servidor (server side), assim sendo preciso enviar uma solicitação (HttpRequest) para o servidor, utilizado o protocolo de comunicação HTTP.</p>
 
 <p align = "justify"> &emsp;&emsp;Uma vez que o servidor receba a solicitação do cliente, será preciso interpretar o request com base na URL e no método HTTP utilizado. Essa computação é realizada pela camada controller que verificará a necessidade de se comunicar com a API Brasil.io para obtenção de dados. </p>
 
-<p align = "justify"> &emsp;&emsp; Caso seja necessário, o controller disparará uma requisição HTTP para obter as informações desejadas. Com a resposta da API Brasil.io o controller enviará os dados para a camada model que salvará no banco o JSON e logo em seguida o retornará para que o controller disponibilize para a camada view que exibirá para o cliente.  </p>
+<p align = "justify"> &emsp;&emsp; Caso seja necessário, o controller disparará uma requisição HTTP para obter as informações desejadas. Com a resposta da API Brasil.io, o controller enviará os dados para a camada model, que salvará no banco o JSON e logo em seguida o retornará para que o controller disponibilize para a camada view, que exibirá para o cliente.  </p>
 
-<p align = "justify"> &emsp;&emsp; Caso não precise de comunicação com a API o controller requisitará a camada model os dados já salvos previamente e está o retornará para que seja exibido para o cliente na camada view. </p>
+<p align = "justify"> &emsp;&emsp; Caso não precise de comunicação com a API, o controller requisitará à camada model os dados já salvos previamente, e esta o retornará para que seja exibido para o cliente na camada view. </p>
 
 ### Referências
 
-> Como documentar a arquitetura de software. Disponível em: < [http://www.linhadecodigo.com.br/artigo/3343/como-documentar-a-arquitetura-de-software.aspx](http://www.linhadecodigo.com.br/artigo/3343/como-documentar-a-arquitetura-de-software.aspx) > Acesso em: 13 de Fevereiro de 2021
+> Como documentar a arquitetura de software. Disponível em: < [http://www.linhadecodigo.com.br/artigo/3343/como-documentar-a-arquitetura-de-software.aspx](http://www.linhadecodigo.com.br/artigo/3343/como-documentar-a-arquitetura-de-software.aspx) > Acesso em: 31 de janeiro de 2022
 
-> Documento de arquitetura Acácia. Disponível em: < [https://fga-eps-mds.github.io/2019.2-Acacia/#/architecture_document](https://fga-eps-mds.github.io/2019.2-Acacia/#/architecture_document) > Acesso em: 13 de Fevereiro de 2021
+> Documento de arquitetura Acácia. Disponível em: < [https://fga-eps-mds.github.io/2019.2-Acacia/#/architecture_document](https://fga-eps-mds.github.io/2019.2-Acacia/#/architecture_document) > Acesso em: 31 de janeiro de 2022
 
-> Documento de arquitetura Hortum. Disponível em: < [https://fga-eps-mds.github.io/2020.2-Hortum/Documento_de_arquitetura/](https://fga-eps-mds.github.io/2020.2-Hortum/Documento_de_arquitetura/) > Acesso em: 13 de Fevereiro de 2021
+> Documento de arquitetura Hortum. Disponível em: < [https://fga-eps-mds.github.io/2020.2-Hortum/Documento_de_arquitetura/](https://fga-eps-mds.github.io/2020.2-Hortum/Documento_de_arquitetura/) > Acesso em: 31 de janeiro de 2022
 
-> Flutter Documentation. Disponível em: < [https://flutter.dev/docs](https://flutter.dev/docs) > Acesso em: 24 de Fevereiro de 2021
+> Documentação React. Disponível em: < [https://pt-br.reactjs.org/docs/getting-started.html](https://pt-br.reactjs.org/docs/getting-started.html) > Acesso em: 16 de janeiro de 2022
 
-> TEMPLATE Documento de Arquitetura de Software. Disponível em: < [https://github.com/DroidFoundry/DroidMetronome/wiki/TEMPLATE-Documento-de-Arquitetura-de-Software](https://github.com/DroidFoundry/DroidMetronome/wiki/TEMPLATE-Documento-de-Arquitetura-de-Software) > Acesso em: 13 de Fevereiro de 2021
+> TEMPLATE Documento de Arquitetura de Software. Disponível em: < [https://github.com/DroidFoundry/DroidMetronome/wiki/TEMPLATE-Documento-de-Arquitetura-de-Software](https://github.com/DroidFoundry/DroidMetronome/wiki/TEMPLATE-Documento-de-Arquitetura-de-Software) > Acesso em: 31 de janeiro de 2022
