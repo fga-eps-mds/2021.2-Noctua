@@ -19,13 +19,14 @@
 
 ### 8.2 Features
 
-| Épico | Feature                | Descrição                                                                 |
-| ----- | ---------------------- | ------------------------------------------------------------------------- |
-| E1    | Gastos governo federal | Pagamentos para aquisição e contratação de obras e compras governamentais |
-| E1    | Gastos deputados       | Gastos dos parlamentares registrados na Camara dos Deputados              |
-| E1    | Eleições Brasil        | Dados das eleições brasileiras desde 1996, capturados do TSE              |
-| E2    | Feedback               | Observações e opniões sobre o site dado pelo usuário                      |
-| E2    | Seleção da Dataset     | Escolher o dataset que sera utilizado                                     |
+| Épico | Feature                | Descrição                                                                                      |
+| ----- | ---------------------- | ---------------------------------------------------------------------------------------------- |
+| E1    | Seleção do Dataset     | Escolher o dataset que sera visualizado                                                        |
+| E1    | Gastos governo federal | Dados referentes aos pagamentos para aquisição e contratação de obras e compras governamentais |
+| E1    | Gastos deputados       | Dados referentes aos gastos dos parlamentares registrados na Camara dos Deputados              |
+| E1    | Eleições Brasil        | Dados das eleições brasileiras desde 1996, capturados do TSE                                   |
+| E2    | Feedback               | Observações e opiniões sobre o site dado pelo                                                  |
+| E2    | FAQ                    | Perguntas e respostas mais frequentes dos usuários                                             |
 
 ### 8.3 User Stories
 
