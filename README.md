@@ -1,4 +1,4 @@
-# Glasnost - Grupo (DashBoard Brasil IO)
+# Noctua - Grupo (DashBoard Brasil IO)
 
 <h1 align="center">Development</h1>
 
