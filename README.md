@@ -1,4 +1,4 @@
-# Tema 3 - Grupo (DashBoard Brasil IO)
+# Glasnost - Grupo (DashBoard Brasil IO)
 
 <h1 align="center">Development</h1>
 
