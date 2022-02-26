@@ -1,4 +1,7 @@
 # Noctua - Grupo (DashBoard Brasil IO)
+<p align="center">
+  <img width="500" src="docs/img/noctuaLogo.png">
+</p>
 
 <h1 align="center">Development</h1>
 
