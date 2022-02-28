@@ -3,8 +3,9 @@
 ## Histórico de Revisão
 Data | Versão | Descrição | Autor
 ---|---|---|---
-2/2/2022 | 1.0 | Criação do TAP | [@Julio-eng](https://github.com/Julio-eng) / [@Alladin-51](https://github.com/Alladin-51)
-7/2/2022 | 1.1 | Atualização do TAP | [@Julio-eng](https://github.com/Julio-eng) / [@Alladin-51](https://github.com/Alladin-51)
+02/02/2022 | 1.0 | Criação do TAP | [@Julio-eng](https://github.com/Julio-eng) / [@Alladin-51](https://github.com/Alladin-51)
+07/02/2022 | 1.1 | Atualização do TAP | [@Julio-eng](https://github.com/Julio-eng) / [@Alladin-51](https://github.com/Alladin-51)
+22/02/2022 | 1.2 | Atualização do TAP | [@MatheusHenrickSantos](https://github.com/MatheusHenrickSantos) / [@Alladin-51](https://github.com/Alladin-51)
 ## 1. Introdução
 Este documento tem como finalidade destacar o foco do projeto, mostrando o objetivo, as principais entregas, a duração, as estimativas de custo e os riscos envolvidos.
 
@@ -24,8 +25,14 @@ O objetivo do projeto é facilitar o trabalho dos jornalistas e das emissoras mo
 
 ### 3.2. Requerimentos de alto nivel
 A tabela abaixo apresenta os requerimentos que o projeto/pruduto deve atingir para que os objetivos do projeto/cliente sejam satisfeitos.
-Req. # | I Requirement Description
+Requerimento | Descrição
 ---|---
+RF1 |	Permitir que o usuário possa pesquisar dados
+RF2	| Criar um histórico de pesquisa da sessão
+RF3	| Permitir feedback do usuário via formulário
+RF5	| Permitir que o usuário possa aplicar filtros nas pesquisas
+RF6	| Gerar gráficos dos dados de acordo com a necessidade
+
 ### 3.3. Principais entregas
 Data | Descrição 
 ---|---
@@ -51,13 +58,14 @@ Sprint 10 | 05/04/2022 | 12/04/2022
 Sprint 11 | 12/04/2022 | 19/04/2022
 Sprint 12 | 19/04/2022 | 26/04/2022
 ## 5. Estimativa de custos
-## 6. Suposições, restrições e riscos
-### 6.1. Suposições
-Esta seção identifica as afirmações que achamos ser verdadeiras quando criamos o documento para começar o projeto.
-### 6.2. Restrições
-Identifica as limitações que devemos levar em conta enquanto fazemos o projeto.
-### 6.3. Riscos
-Os riscos que podem atrapalhar o andamento do projeto.
+
+## 6. Riscos
+Risco | Prenvenção/Ação
+---|---
+Comunicação dentro dos squads | Fazer uso das ferramentas de comunicação (Whatsapp/Telegram), além das reuniões semanais.
+Comunicação entre squads | Estabelecer meios comunicação entre os membros de cada squad com a mesma função.
+Desistência | Estimular a participação e evitar a sobrecarga dos membros dos squads. E em caso de desistência o grupo deve ser reorganizado.
+Problemas pessoais e de saúde | Organizar o grupo para que, no caso de ausência de um membro, outro assumir.
 ## 7. Organização do projeto
 ### 7.1. Equipe envolvida
 Papel | Responsabilidade | Estudante 
