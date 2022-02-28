@@ -1,4 +1,7 @@
-# Tema 3 - Grupo (DashBoard Brasil IO)
+# Noctua - Grupo (DashBoard Brasil IO)
+<p align="center">
+  <img width="500" src="docs/img/noctuaLogo.png">
+</p>
 
 <h1 align="center">Development</h1>
 
@@ -31,5 +34,6 @@
 |Júlio César Martins França       |https://github.com/Julio-eng       |
 |Igor Thiago Lima de Santana      |https://github.com/Alladin-51      |
 |Fellipe Pereira da Costa Silva   |https://github.com/fellipepcs      |
+|Matheus Moreira da Silva Vieira  |https://github.com/matheusmsvieira |
 
 ## Releases

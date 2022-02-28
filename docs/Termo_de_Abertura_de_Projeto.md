@@ -32,6 +32,7 @@ RF2	| Criar um histórico de pesquisa da sessão
 RF3	| Permitir feedback do usuário via formulário
 RF5	| Permitir que o usuário possa aplicar filtros nas pesquisas
 RF6	| Gerar gráficos dos dados de acordo com a necessidade
+
 ### 3.3. Principais entregas
 Data | Descrição 
 ---|---
@@ -57,6 +58,7 @@ Sprint 10 | 05/04/2022 | 12/04/2022
 Sprint 11 | 12/04/2022 | 19/04/2022
 Sprint 12 | 19/04/2022 | 26/04/2022
 ## 5. Estimativa de custos
+
 ## 6. Riscos
 Risco | Prenvenção/Ação
 ---|---
