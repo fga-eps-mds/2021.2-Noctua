@@ -35,5 +35,6 @@
 |Igor Thiago Lima de Santana      |https://github.com/Alladin-51      |
 |Fellipe Pereira da Costa Silva   |https://github.com/fellipepcs      |
 |Matheus Moreira da Silva Vieira  |https://github.com/matheusmsvieira |
+|Eurico Menezes de Abreu Neto     |https://github.com/EuricoAbreu     |
 
 ## Releases
