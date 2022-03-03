@@ -1,0 +1,8 @@
+site_name: Noctua
+
+theme:
+  name: material
+  palette:
+    primary: green
+
+    
