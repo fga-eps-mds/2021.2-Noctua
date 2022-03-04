@@ -1,7 +1,0 @@
-site_name: Noctua
-site_url: https://fga-eps-mds.github.io/2021.2-Noctua/
-nav:
-    - Home: index.md
-    - Documento de Visão: Doc_vis.md
-    - Metodologia: Metodologia.md
-theme: readthedocs
