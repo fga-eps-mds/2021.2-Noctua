@@ -1,6 +1,6 @@
 # Noctua - Grupo (DashBoard Brasil IO)
 <p align="center">
-  <img width="400" src="https://cdn.discordapp.com/attachments/744698026462937211/949726362971828254/unknown.png">
+  <img width="400" src="https://cdn.discordapp.com/attachments/744698026462937211/949754815217532938/unknown.png">
 </p>
 
 <h1 align="center">Development</h1>
