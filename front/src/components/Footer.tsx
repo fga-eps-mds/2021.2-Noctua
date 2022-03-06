@@ -78,13 +78,13 @@ import {
           <Logo />
           <Text>© 2022 Noctua Development. Todos os direitos reservados</Text>
           <Stack direction={'row'} spacing={6}>
-            <SocialButton label={'Twitter'} href={'fale-conosco'} >
+            <SocialButton label={'Email'} href={'fale-conosco'} >
               <HiOutlineMail />
             </SocialButton>
-            <SocialButton label={'YouTube'} href={'#'}>
+            <SocialButton label={'Discord'} href={'https://discord.gg/w2pxnmXP'}>
               <SiDiscord />
             </SocialButton>
-            <SocialButton label={'Instagram'} href={'#'}>
+            <SocialButton label={'Github'} href={'https://github.com/fga-eps-mds/2021.2-Noctua'}>
               <FaGithub />
             </SocialButton>
           </Stack>
