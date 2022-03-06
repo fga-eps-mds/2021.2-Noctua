@@ -12,9 +12,7 @@ import {
     PopoverTrigger,
     PopoverContent,
     useColorModeValue,
-    useBreakpointValue,
     useDisclosure,
-    Divider,
   } from '@chakra-ui/react';
   import {
     HamburgerIcon,
