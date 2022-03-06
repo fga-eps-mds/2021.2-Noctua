@@ -4,7 +4,7 @@
 | Data |Versão|Descrição| Autor             |
 | ------ | --- | --- | ----------------- |
 | 31/01/2022  |1.0|Abertura do documento| [@MateusCaltabiano](https://github.com/MateusCaltabiano) |
-| 06/03/2022 | 1.1 | Atualizacao do Documento de Metodologia | [@phnog](https://github.com/phnog) | 
+| 06/03/2022 | 1.1 | Atualização  do Documento de Metodologia | [@phnog](https://github.com/phnog) | 
 
 ## Introdução
 
