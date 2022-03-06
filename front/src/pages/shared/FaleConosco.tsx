@@ -19,7 +19,6 @@ import {
   } from 'react-icons/md';
   import { BsGithub, BsDiscord } from 'react-icons/bs';
 import FormFaleConosco from '../../components/FormFaleConosco'
-
 const  FaleConosco=()=> {
 
   const { hasCopied, onCopy } = useClipboard('Noctua.faq.unb@hotmail.com');
