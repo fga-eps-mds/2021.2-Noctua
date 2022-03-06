@@ -6,9 +6,7 @@ import {
     Stack,
     Text,
     useColorModeValue,
-    VisuallyHidden,
-    useColorMode,
-    Divider,
+    VisuallyHidden
   } from '@chakra-ui/react';
   import { FaGithub} from 'react-icons/fa';
   import {  HiOutlineMail } from 'react-icons/hi';

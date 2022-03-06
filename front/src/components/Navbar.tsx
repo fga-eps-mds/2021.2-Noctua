@@ -241,7 +241,7 @@ import {
         {
           label: 'Gastos dos deputados do Brasil',
           subLabel: 'Infográficos referentes à analise de dados dos gastos realizados pelos deputados',
-          href: '#',
+          href: 'gastos-deputados',
         },
         {
           label: 'Gastos do Governo Federal',
