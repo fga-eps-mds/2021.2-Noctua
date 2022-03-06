@@ -7,11 +7,11 @@ export default class EmailController{
 
  enviaEmail(req:Request ,res: Response): any {
     
-    const user = 'Noctua.faq.unb@gmail.com'
-    const pass = "120819Mjpi"
+    const user = 'email'
+    const pass = "senha"
 
     var smtpTransport = nodemailer.createTransport({
-        host: "smtp.gmail.com",
+        host: "host",
         port: 587,
         secure:false,
         requireTLS: true,
