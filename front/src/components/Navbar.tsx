@@ -1,4 +1,5 @@
 import {
+    Image,
     Box,
     Flex,
     Text,
@@ -13,6 +14,7 @@ import {
     useColorModeValue,
     useBreakpointValue,
     useDisclosure,
+    Divider,
   } from '@chakra-ui/react';
   import {
     HamburgerIcon,
@@ -49,14 +51,26 @@ import {
               aria-label={'Toggle Navigation'}
             />
           </Flex>
+          <Image
+            src="https://cdn.discordapp.com/attachments/744698026462937211/949839916773281822/unknown.png"
+            maxW={'310px'}
+            height={'40px'}
+            mb={1}
+            ml={5}
+            mr={5}
+            objectFit='fill'
+         />
+            <Image
+            src="https://cdn.discordapp.com/attachments/744698026462937211/949841064422952960/unknown.png"
+            maxW={'120px'}
+            height={'22px'}
+            mt={-1}
+            mr={5}
+            objectFit='fill'
+         />
           <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
-            <Text
-              textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
-              fontFamily={'heading'}
-              color={useColorModeValue('gray.800', 'white')}>
-              Noctua
-            </Text>
-  
+            
+            
             <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
               <DesktopNav />
             </Flex>
@@ -85,7 +99,7 @@ import {
                 <Link
                   p={2}
                   href={navItem.href ?? '#'}
-                  fontSize={'sm'}
+                  fontSize={'lg'}
                   fontWeight={500}
                   color={linkColor}
                   _hover={{
@@ -254,7 +268,7 @@ import {
         {
           label: 'Fale conosco',
           subLabel: 'Entre em contato com a nossa equipe de desenvolvimento',
-          href: '#',
+          href: 'fale-conosco',
         },
       ],
     },
