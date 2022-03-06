@@ -2,12 +2,16 @@ import React from 'react';
 import Home from './Home';
 import Navbar from './components/Navbar';
 
-function App() {
+import {Route,Routes } from 'react-router-dom';
+import Router from './Router';
+
+
+const  App=()=> {
   return (
-      <>
-   <Navbar />
-    <Home />
-      </>
+    <>
+      <Navbar />
+      <Router />
+    </>
   );
 }
 
