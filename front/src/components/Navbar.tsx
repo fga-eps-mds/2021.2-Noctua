@@ -254,7 +254,7 @@ import {
         {
           label: 'Fale conosco',
           subLabel: 'Entre em contato com a nossa equipe de desenvolvimento',
-          href: '#',
+          href: 'fale-conosco',
         },
       ],
     },
