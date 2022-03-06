@@ -261,7 +261,7 @@ import {
         {
           label: 'Perguntas mais frequentes',
           subLabel: 'Será que eu vou me formar daqui 2 anos?',
-          href: '#',
+          href: 'perguntas-frequentes',
         },
         {
           label: 'Fale conosco',
