@@ -7,7 +7,7 @@
 | 14/02/2022 | 1.0    | Abertura do Documento                                         | Pedro Herique Nogueira, Iago de Paula Cabral, Mateus Caltabiano |
 | 23/02/2022 | 1.0.1  | Revisão de Erros                                              | Matheus Soares Arruda                                           |
 | 23/02/2022 | 1.1    | Correção de épicos,features e ajustes das histórias de usário | João Victor Correia de Oliveira                                 |
-| 07/03/2022 | 1.2    | Atualização das Notas do User Stories | João Victor Correia de Oliveira, Pedro Henrique Nogueira, Matheus Soares Arruda, Iago Cabral|
+| 07/03/2022 | 1.2    | Atualização das Pontuação do User Stories | João Victor Correia de Oliveira, Pedro Henrique Nogueira, Matheus Soares Arruda, Iago Cabral|
 
 ### 8.1 Épicos
 
@@ -29,7 +29,7 @@
 
 ### 8.3 User Stories
 
-| Épico | Feature            | User Storie | Descricao                                                                                                                             | Pontuacao |
+| Épico | Feature            | User Storie | Descricao                                                                                                                             | Pontuação |
 | ----- | ------------------ | ----------- | ------------------------------------------------------------------------------------------------------------------------------------- | --------- |
 | E1    | Seleção de Dataset | US01        | Eu, como usuário, gostaria de selecionar o dataset em que farei minha pesquisa de dados para que fique mais organizado.              | 2        |
 | E1    | Gastos Diretos     | US02        | Eu, como usuário, gostaria de visualizar os gastos diretos do governo federal para poder fazer futuras análises.                      | 6       |
