@@ -262,8 +262,8 @@ import { useNavigate } from 'react-router-dom';
       children: [
         {
           label: 'Perguntas mais frequentes',
-          subLabel: 'Veja as perguntas mais recorrentes da nossa plataforma',
-          href: '#',
+          subLabel: 'Será que eu vou me formar daqui 2 anos?',
+          href: 'perguntas-frequentes',
         },
         {
           label: 'Fale conosco',

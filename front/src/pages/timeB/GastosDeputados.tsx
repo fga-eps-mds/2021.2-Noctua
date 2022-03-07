@@ -1,11 +1,11 @@
 import React from 'react';
-
+import PowerBiReport from './PowerBiReport';
 
 
 const  GastosDeputados=()=> {
   return (
     <>
-      <h1>Vamooooooooo</h1>
+      <PowerBiReport/>
     </>
   );
 }
