@@ -14,7 +14,78 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/fga-eps-mds/Tema03-timeb?color=purple)
 
 ## Objetivo 
-<p align = "justify">&emsp;&emsp;O objetivo mor do projeto é facilitar a relação dados/usuário. A mediação será feita por intermédio de um produto que coadjuve no melhor entendimento de uma grande quantidade de dados. </p>
+<p align = "justify">&emsp;&emsp;O objetivo principal do projeto é facilitar a relação dados/usuário, trazendo a transparência para leitura de informações. A mediação será feita por um produto que consome os dados governamentais disponibilizados pelo [Brasil.io](https://brasil.io/home/) e mostra de para o usuário de uma forma mais amigável.  </p>
+
+## Instalação
+
+<!-- Pré-Requisitos -->
+### Pré-Requisitos
+#### Obrigatórias
+|Tecnologias|Descrição|
+|-|-|
+|[Git](https://git-scm.com/)|`git` é uma ferramenta de versionamento de código `gratuito` e `open source`, capaz de lidar com tudo desde pequenos até grandes projetos, com `velocidade` e `eficiência`.|
+|[Docker](https://www.docker.com/get-docker)|o `docker` é uma plataforma `open source` de containerização, ou seja um software para criação de sistemas isolados. Os `containers` são extremamente leves e permitem que os softwares sejam `facilmente` executados e exportados para os diversos sistemas existentes atualmente.|
+|[Docker compose](https://docs.docker.com/compose/install/#install-compose)|O `docker-compose` é uma tecnologia de `multi-dockerização` que permite, através de um único arquivo de configuração `.yml`, criar e rodar todos os serviços/dockers da sua aplição.|
+
+#### Para sistemas Windows
+|Tecnologias|Descrição|
+|-|-|
+|[Windows Subsystem for Linux](https://docs.microsoft.com/pt-br/windows/wsl/install-win10)|O Subsistema do Windows para Linux permite que os desenvolvedores executem um `ambiente GNU/Linux`, incluindo a maioria das ferramentas de linha de comando, utilitários e aplicativos, diretamente no Windows, sem modificações e sem a sobrecarga de uma `máquina virtual tradicional` ou instalação `dualboot`.|
+|[Docker compose para WSL](https://docs.docker.com/docker-for-windows/wsl/)|O Windows Subsystem for Linux `WSL` apresenta uma mudança significativa na arquitetura, pois é um kernel Linux completo desenvolvido pela Microsoft, permitindo que os contêineres do Linux sejam executados `nativamente`, `sem emulação`. |
+
+
+### Baixando e rodando o Projeto
+
+```bash
+# Clone o repositório
+$ git clone https://github.com/fga-eps-mds/2021.2-Noctua.git
+
+# Entre na pasta do projeto
+$ cd 2021.2-Noctua
+
+# Build do docker
+$ docker-compose build
+
+# Rodando o docker
+$ docker-compose up
+```
+Ao rodar o código a *porta 3000* estará aberta para o uso da aplicação e a porta 5000 para chamadas da api.
+
+### Para desenvolvimento 
+#### Como desenvolvedor é necessário ter o [Node.js](https://nodejs.org/en/download/) e [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable) instalados
+
+```bash
+# Clone o repositório
+$ git clone https://github.com/fga-eps-mds/2021.2-Noctua.git
+
+# Entre na pasta do projeto
+$ cd 2021.2-Noctua
+
+# Entre no front-end 
+$ cd front
+
+# Instale dependências de desenvolvimento 
+$ yarn
+
+# Voltar para a pasta do projeto 
+$ cd..
+
+# Entre no back-end 
+$ cd 
+
+# Instale dependências de desenvolvimento 
+$ yarn
+
+# Build do docker
+$ docker-compose build
+
+# Rodando o docker
+$ docker-compose up
+```
+Ao rodar o código a *porta 3000* estará aberta para o uso da aplicação e a porta 5000 para chamadas da api.
+
+
+
 
 ## Contribuidores
 
