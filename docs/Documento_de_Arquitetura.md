@@ -8,7 +8,7 @@ Data|Versão|Descrição|Autor
 31/01/2022|1.0.1|Adição visão lógica|João Victor Correia
 15/02/2022|1.1|Mudança de tecnologia do Front-end|João Victor Correia
 06/03/2022|1.2|Adição diagrama casos de uso|Iago Cabral
-06/03/2022|1.2.1|Adição do tópico diagrama de pacotes|João Victor Correia
+06/03/2022|1.2.1|Adição do tópico diagrama de pacotes e atualização da visão lógica|João Victor Correia
 
 
 
@@ -74,6 +74,8 @@ Abreviação|Significado
 <p align = "justify" > &emsp;&emsp; Isso torna o React uma tecnologia muito flexível para a solução de problemas e para a construção de interfaces reutilizáveis, uma vez que cada um destes componentes pode ser manipulado de maneira distinta. </p>
 <p align = "justify"> &emsp;&emsp; Além disso, por ser um framework que possui uma curva de aprendizado muito boa e alguns dos integrantes do grupo já terem conhecimento prévio relacionado à linguagem, ela foi selecionada para atuar no front-end.</p>
 
+#### 2.2.2 Power BI
+<p align = "justify"> &emsp;&emsp;O objetivo do Power BI é fornecer visualizações interativas e recursos de business intelligence com uma interface simples para que os usuários finais criem os seus próprios relatórios e dashboards. Por isso, ele foi escolhido como tecnologia para lidar com os dados que serão apresentados pela aplicação
 
 ### 2.3 Banco de Dados
 
@@ -101,7 +103,7 @@ Abreviação|Significado
 
 ## 4. Visão Lógica
 ![Visão Lógica](img/visao_logica.png)
-<p align = "justify"> &emsp;&emsp; As ações do usuário no ambiente web serão interpretadas pelo React como gestos, onde cada gesto está associado com um evento que irá disparar uma ação. Algumas dessas ações poderão ser tratadas no lado do cliente (client side), como ações de iteratividade que não precisam de comunicação externa.</p>
+<p align = "justify"> &emsp;&emsp; As ações do usuário no ambiente web serão interpretadas pelo React como ações. Algumas dessas poderão ser tratadas no lado do cliente (client side), como ações de iteratividade que não precisam de comunicação externa.</p>
 
 <p align = "justify"> &emsp;&emsp;Já em outras ações será preciso consultar um banco de dados no lado do servidor (server side), assim sendo preciso enviar uma solicitação (HttpRequest) para o servidor, utilizado o protocolo de comunicação HTTP.</p>
 
@@ -110,6 +112,8 @@ Abreviação|Significado
 <p align = "justify"> &emsp;&emsp; Caso seja necessário, o controller disparará uma requisição HTTP para obter as informações desejadas. Com a resposta da API Brasil.io, o controller enviará os dados para a camada model, que salvará no banco o JSON e logo em seguida o retornará para que o controller disponibilize para a camada view, que exibirá para o cliente.  </p>
 
 <p align = "justify"> &emsp;&emsp; Caso não precise de comunicação com a API, o controller requisitará à camada model os dados já salvos previamente, e esta o retornará para que seja exibido para o cliente na camada view. </p>
+
+<p align = "justify"> &emsp;&emsp; O tratamento dos dados será feito pela ferramenta do Power BI que gerará relatórios e dashboards. Estes que serão embutidos no React via integração disponibilizada pela Microsoft </p>
 
 ### 4.1 Visão Geral: Pacotes e Camadas
 <p align = "justify"> &emsp;&emsp; O sistema será desenvolvido utilizando o Django REST Framework e o Flutter. Irão se comunicar através da API REST fornecida pelo backend do sistema. </p>
