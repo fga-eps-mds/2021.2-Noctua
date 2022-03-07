@@ -6,7 +6,10 @@ import {
     Stack,
     Text,
     useColorModeValue,
-    VisuallyHidden
+    VisuallyHidden,
+    IconButton, 
+    Button,
+    HStack
   } from '@chakra-ui/react';
   import { FaGithub} from 'react-icons/fa';
   import {  HiOutlineMail } from 'react-icons/hi';
@@ -77,17 +80,39 @@ import {
           align={{ base: 'center', md: 'center' }}>
           <Logo />
           <Text>© 2022 Noctua Development. Todos os direitos reservados</Text>
-          <Stack direction={'row'} spacing={6}>
-            <SocialButton label={'Email'} href={'fale-conosco'} >
-              <HiOutlineMail />
-            </SocialButton>
-            <SocialButton label={'Discord'} href={'https://discord.gg/w2pxnmXP'}>
-              <SiDiscord />
-            </SocialButton>
-            <SocialButton label={'Github'} href={'https://github.com/fga-eps-mds/2021.2-Noctua'}>
-              <FaGithub />
-            </SocialButton>
-          </Stack>
+          <HStack direction={'row'} spacing={6}>
+            <IconButton
+                          aria-label="email"
+                          variant="ghost"
+                          size='sm'
+                          isRound={true}
+                          color="#bad4e3"
+                          _hover={{ color: 'orange.400' }}
+                          icon={<HiOutlineMail size="24px" />}
+                          onClick={()=>{window.open('fale-conosco')}}
+                        />
+            <IconButton
+                          aria-label="discord"
+                          variant="ghost"
+                          size='sm'
+                          isRound={true}
+                          color="#bad4e3"
+                          _hover={{ color: 'white', bg: '#4080ff' }}
+                          
+                          icon={<SiDiscord size="20px" />}
+                          onClick={()=>{window.open("https://discord.gg/cpMXU7z6tK",'_blank')}}
+                        />
+            <IconButton
+                          aria-label="github"
+                          variant="ghost"
+                          size="sm"
+                          isRound={true}
+                          color="#bad4e3"
+                          _hover={{ color: 'white' }}
+                          icon={<FaGithub size="24px" />}
+                          onClick={()=>{window.open("https://github.com/fga-eps-mds/2021.2-Noctua",'_blank')}}
+                        />
+          </HStack>
         </Container>
       </Box>
     );

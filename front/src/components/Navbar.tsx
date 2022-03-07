@@ -27,7 +27,7 @@ import { useNavigate } from 'react-router-dom';
     const navigate = useNavigate();
 
     return (
-    <Box onClick={()=>navigate("/")} _hover={{cursor: "pointer"}} >
+    <Box  >
         <Flex
          bg="#2f3a58"
           color={useColorModeValue('gray.600', 'white')}
@@ -53,6 +53,7 @@ import { useNavigate } from 'react-router-dom';
           </Flex>
           <Image
             src="https://cdn.discordapp.com/attachments/747517957915148478/950263089679466547/unknown-removebg-preview.png"
+            onClick={()=>navigate("/")} _hover={{cursor: "pointer"}}
             maxW={'310px'}
             height={'50px'}
             mb={0}
