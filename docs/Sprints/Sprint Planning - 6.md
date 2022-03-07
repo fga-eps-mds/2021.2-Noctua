@@ -26,3 +26,4 @@ Duração: 7 dias
 * Criação da página de perguntas frequentes
 * Fazer o deploy da github pages
 * Documentação sprints repositório
+* Atualização documento de arquitetura

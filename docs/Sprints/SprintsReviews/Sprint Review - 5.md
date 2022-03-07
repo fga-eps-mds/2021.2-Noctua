@@ -8,22 +8,18 @@ Duração: 7 dias
 
 | Issues                                | Conclusões |
 | ------------------------------------- | ---------- |
-| Iniciar uso do docker                 | Concluída  |
 | Ajustes product backlog               | Concluída  |
-| Atualizar github page                 | Concluída  |
-| Finalizar documento de arquitetura    | Concluída  |
-| Iniciar o desenvolvimento de código   | Concluída  |
 | Elaborar protótipo de alta fidelidade | Adiada     |
 
 
 ## Pontos positivos
-* Organização
+* Comunicação
 
 ## Pontos negativos
-* Comunicação
+* Organização
 
 ## Pontos de melhora
 * Reuniões
 
 ## Análise do Scrum Master
-Time continua bem entrosado, mas tivemos apenas uma issue essa semana por conta de muitas provas.
+Time continua bem entrosado, mas tivemos muitas provas essa semana, o que dificultou um pouco o andamento do trabalho.
