@@ -1,4 +1,4 @@
-# Sprint - 1
+# Sprint Planning - 1
 
 ## Visão geral
 
