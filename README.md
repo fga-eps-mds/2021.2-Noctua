@@ -36,5 +36,6 @@
 |Fellipe Pereira da Costa Silva   |https://github.com/fellipepcs      |
 |Matheus Moreira da Silva Vieira  |https://github.com/matheusmsvieira |
 |Eurico Menezes de Abreu Neto     |https://github.com/EuricoAbreu     |
+|Lucas Rodrigues Cardoso          |https://github.com/lucascard       |
 
 ## Releases
