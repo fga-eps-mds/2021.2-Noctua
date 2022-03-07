@@ -3,6 +3,7 @@
 Data | Versão | Descrição | Autor
 ---|---|---|---
 04/03/2022 | 1.0 | Criação do EAP | [@MatheusHenrickSantos](https://github.com/MatheusHenrickSantos) / [@Julio-eng](https://github.com/Julio-eng)
+07/03/2022 | 1.0 | Revisão do EAP | [@Alladin-51](https://github.com/Alladin-51)
 
 ## 1. Objetivo
 O objetivo da Estrutura Analítica do Projeto é apresentar de forma visual o escopo do projeto através do diagrama, a fim de facilitar o gerenciamento de entregas.
