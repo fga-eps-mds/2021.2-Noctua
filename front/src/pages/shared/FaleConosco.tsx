@@ -25,10 +25,10 @@ const  FaleConosco=()=> {
 
 
     return (
-        <Container bg="#9DC4FB" maxW="full" mt={0} centerContent overflow="hidden">
+        <Container bg="gray.100" maxW="full" mt={0} centerContent overflow="hidden">
           <Flex>
             <Box
-              bg="#02054B"
+              bg="black"
               color="white"
               borderRadius="lg"
               m={{ sm: 4, md: 16, lg: 10 }}
