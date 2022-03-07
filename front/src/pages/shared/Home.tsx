@@ -1,6 +1,6 @@
 import React from 'react';
-import { Center, HStack,Link, } from '@chakra-ui/react';
-import Card from "../components/Card"
+import { Center, HStack, } from '@chakra-ui/react';
+import Card from "../../components/Card"
 import { useNavigate } from "react-router-dom";
 
 function Home() {
