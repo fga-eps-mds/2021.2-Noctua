@@ -20,14 +20,16 @@ import {
     ChevronDownIcon,
     ChevronRightIcon,
   } from '@chakra-ui/icons';
+import { useNavigate } from 'react-router-dom';
   
   export default function WithSubnavigation() {
     const { isOpen, onToggle } = useDisclosure();
-  
+    const navigate = useNavigate();
+
     return (
-      <Box>
+    <Box onClick={()=>navigate("/")} _hover={{cursor: "pointer"}} >
         <Flex
-          bg={useColorModeValue('white', 'gray.800')}
+         bg="#2f3a58"
           color={useColorModeValue('gray.600', 'white')}
           minH={'60px'}
           py={{ base: 2 }}
@@ -50,22 +52,22 @@ import {
             />
           </Flex>
           <Image
-            src="https://cdn.discordapp.com/attachments/744698026462937211/949839916773281822/unknown.png"
+            src="https://cdn.discordapp.com/attachments/747517957915148478/950263089679466547/unknown-removebg-preview.png"
             maxW={'310px'}
-            height={'40px'}
-            mb={1}
+            height={'50px'}
+            mb={0}
             ml={5}
-            mr={5}
+            mr={0}
             objectFit='fill'
          />
-            <Image
-            src="https://cdn.discordapp.com/attachments/744698026462937211/949841064422952960/unknown.png"
+            {/* <Image
+            src="https://media.discordapp.net/attachments/747517957915148478/950262642415640616/NoctuaLetter-removebg-preview.png"
             maxW={'120px'}
             height={'22px'}
             mt={-1}
             mr={5}
             objectFit='fill'
-         />
+         /> */}
           <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
             
             
@@ -84,8 +86,8 @@ import {
   }
   
   const DesktopNav = () => {
-    const linkColor = useColorModeValue('gray.600', 'gray.200');
-    const linkHoverColor = useColorModeValue('gray.800', 'white');
+    const linkColor = useColorModeValue('white', 'gray.200');
+    const linkHoverColor = useColorModeValue('#bad4e3', 'white');
     const popoverContentBgColor = useColorModeValue('white', 'gray.800');
   
     return (
@@ -138,12 +140,12 @@ import {
         display={'block'}
         p={2}
         rounded={'md'}
-        _hover={{ bg: useColorModeValue('pink.50', 'gray.900') }}>
+        _hover={{ bg: useColorModeValue('gray.50', 'gray.900') }}>
         <Stack direction={'row'} align={'center'}>
           <Box>
             <Text
               transition={'all .3s ease'}
-              _groupHover={{ color: 'pink.400' }}
+              _groupHover={{ color: '#3f0a73' }}
               fontWeight={500}>
               {label}
             </Text>
@@ -157,7 +159,7 @@ import {
             justify={'flex-end'}
             align={'center'}
             flex={1}>
-            <Icon color={'pink.400'} w={5} h={5} as={ChevronRightIcon} />
+            <Icon color={'#3f0a73'} w={5} h={5} as={ChevronRightIcon} />
           </Flex>
         </Stack>
       </Link>

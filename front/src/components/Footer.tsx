@@ -61,14 +61,16 @@ import {
   export default function SmallWithLogoLeft() {
     return (
       <Box
-        bg={useColorModeValue('gray.100', 'gray.900')}
-        color={useColorModeValue('gray.700', 'gray.200')}>
+      position="fixed"
+      bottom="0"
+      width="100%"
+        bg="#2f3a58"
+        color="white">
             {/* <Divider orientation='horizontal' /> */}
         <Container
-        
+          
           as={Stack}
-          maxW={'6xl'}
-          mt={16}
+          maxW={'6xl'}          
           direction={{ base: 'column', md: 'row' }}
           spacing={4}
           justify={{ base: 'center', md: 'space-between' }}

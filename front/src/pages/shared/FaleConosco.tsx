@@ -19,17 +19,16 @@ import {
   } from 'react-icons/md';
   import { BsGithub, BsDiscord } from 'react-icons/bs';
 import FormFaleConosco from '../../components/FormFaleConosco'
-
 const  FaleConosco=()=> {
 
-  const { hasCopied, onCopy } = useClipboard('Noctua.faq.unb@hotmail.com');
+  const { hasCopied, onCopy } = useClipboard('Noctua.faq.unb@gmail.com');
 
 
     return (
-        <Container bg="#9DC4FB" maxW="full" mt={0} centerContent overflow="hidden">
+        <Container bg="gray.100" maxW="full" mt={0} centerContent overflow="hidden">
           <Flex>
             <Box
-              bg="#02054B"
+              bg="black"
               color="white"
               borderRadius="lg"
               m={{ sm: 4, md: 16, lg: 10 }}
@@ -59,7 +58,7 @@ const  FaleConosco=()=> {
                             _hover={{ border: '2px solid #1C6FEB' }}
                             onClick={onCopy}
                             leftIcon={<MdEmail color="#1970F1" size="20px" />}>
-                            Noctua.faq.unb@hotmail.com
+                            Noctua.faq.unb@gmail.com
                           </Button>
                           </Tooltip>
 

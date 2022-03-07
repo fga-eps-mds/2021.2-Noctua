@@ -14,7 +14,7 @@ function Home() {
   }
   return (
 
-    <Center paddingTop="15%">
+    <Center paddingTop="5%">
     <HStack spacing="3rem">
       <Card title = {"Gastos do Governo Federal"} text={"Análise sobre os gastos do Governo Federal "} onClickFunc={pushToPage("/gastos-governo-federal")} image="https://img.freepik.com/fotos-gratis/imagem-aproximada-em-tons-de-cinza-de-uma-aguia-careca-americana-em-um-fundo-escuro_181624-31795.jpg?size=626&ext=jpg" />
       <Card title = {"Gastos dos deputados do Brasil"} text={"Infográficos referentes aos gastos realizados pelos deputados"} onClickFunc={pushToPage("/gastos-deputados")} image='https://www.zerohoranews.com.br/images/noticias/8101/8bc9be39e9fe8c864395aa3c7f087226.jpg'/>
