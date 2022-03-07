@@ -77,7 +77,7 @@ const FormFaleConosco= ()=> {
             )}
           </FormControl>
           <FormControl id="mensagem" isInvalid={isErrorMensagem}>
-            <FormLabel>Mesagem</FormLabel>
+            <FormLabel>Mensagem</FormLabel>
             <Textarea
               borderColor="gray.300"
               _hover={{
@@ -89,7 +89,7 @@ const FormFaleConosco= ()=> {
              {!isErrorMensagem ? (
                 null
             ) : (
-                <FormErrorMessage>Menssagem é requerida.</FormErrorMessage>
+                <FormErrorMessage>Mensagem é requerida.</FormErrorMessage>
             )}
           </FormControl>
           <FormControl id="name" float="right">

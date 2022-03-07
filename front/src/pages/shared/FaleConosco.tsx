@@ -21,7 +21,7 @@ import {
 import FormFaleConosco from '../../components/FormFaleConosco'
 const  FaleConosco=()=> {
 
-  const { hasCopied, onCopy } = useClipboard('Noctua.faq.unb@hotmail.com');
+  const { hasCopied, onCopy } = useClipboard('Noctua.faq.unb@gmail.com');
 
 
     return (
@@ -58,7 +58,7 @@ const  FaleConosco=()=> {
                             _hover={{ border: '2px solid #1C6FEB' }}
                             onClick={onCopy}
                             leftIcon={<MdEmail color="#1970F1" size="20px" />}>
-                            Noctua.faq.unb@hotmail.com
+                            Noctua.faq.unb@gmail.com
                           </Button>
                           </Tooltip>
 
