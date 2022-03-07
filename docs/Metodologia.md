@@ -3,7 +3,8 @@
 ## Versionamento
 | Data |Versão|Descrição| Autor             |
 | ------ | --- | --- | ----------------- |
-| 31/01/2022  |1.0|Abertura do documento| Mateus Caltabiano |
+| 31/01/2022  |1.0|Abertura do documento| [@MateusCaltabiano](https://github.com/MateusCaltabiano) |
+| 06/03/2022 | 1.1 | Atualização  do Documento de Metodologia | [@phnog](https://github.com/phnog) | 
 
 ## Introdução
 
@@ -108,9 +109,9 @@ nosso projeto, como a integração contínua.
 | Iago Cabral         | Desenvolvedor         |
 | João Victor Correia | Arquiteto de Software |
 | Mateus Caltabiano   | Scrum Master          |
-| Matheus Perillo     | Desenvolvedor         |
+| Matheus Perillo     | Project Owner         |
 | Matheus Soares      | DevOps                |
-| Pedro Henrique      | Project Owner         |
+| Pedro Henrique      | Desenvolvedor         |
 
 ### Bibliografia
 
