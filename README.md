@@ -14,7 +14,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/fga-eps-mds/Tema03-timeb?color=purple)
 
 ## Objetivo 
-<p align = "justify">&emsp;&emsp;O objetivo principal do projeto é facilitar a relação dados/usuário, trazendo a transparência para leitura de informações. A mediação será feita por um produto que consome os dados governamentais disponibilizados pelo [Brasil.io](https://brasil.io/home/) e mostra de para o usuário de uma forma mais amigável.  </p>
+&emsp;&emsp;O objetivo principal do projeto é facilitar a relação dados/usuário, trazendo a transparência para leitura de informações. A mediação será feita por um produto que consome os dados governamentais disponibilizados pelo [Brasil.io](https://brasil.io/home/) e mostra de para o usuário de uma forma mais amigável.  
 
 ## Instalação
 
