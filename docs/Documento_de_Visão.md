@@ -2,8 +2,9 @@
 ## Histórico de revisão
 Data|Versão|Descrição|Autor(es)
 -|-|-|-
-31/01/2022|1.0|Abertura do documento de visão|Mateus Caltabiano, Matheus Soares, Pedro Henrique
-11/02/2022|1.1|Adição dos tópicos 3.7, 4, 5, 6 e 7|Mateus Caltabiano
+31/01/2022|1.0|Abertura do documento de visão|[@MateusCaltabiano](https://github.com/MateusCaltabiano), [@MatheusSoares](https://github.com/MtsSrs), [@phnog](https://github.com/phnog) 
+11/02/2022|1.1|Adição dos tópicos 3.7, 4, 5, 6 e 7| [@MateusCaltabiano](https://github.com/MateusCaltabiano)
+06/03/2022|1.2|Atualização  do Documento de Visão | [@phnog](https://github.com/phnog) 
 ## 1. Introdução
 ### 1.1 Objetivo
 
