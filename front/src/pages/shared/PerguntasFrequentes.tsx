@@ -6,7 +6,6 @@ import {
   Text,
   Stack,
   Container,
-  Avatar,
   useColorModeValue,
   Icon,
 } from '@chakra-ui/react';
@@ -93,7 +92,7 @@ const TestimonialAvatar = ({
 const WithSpeechBubbles = () => {
   return (
     <Box bg={useColorModeValue('gray.100', 'gray.700')}>
-      <Container maxW={'7xl'} py={16} as={Stack} spacing={12}>
+      <Container maxW={'6xl'}  py={28} as={Stack} spacing={12}>
         <Stack spacing={0} align={'center'}>
           <Heading>Perguntas frequentes</Heading>
           <Text>Aqui estão as respostas para as perguntas mais comuns</Text>
@@ -105,12 +104,16 @@ const WithSpeechBubbles = () => {
             <TestimonialContent>
               <TestimonialHeading>De onde vem os dados?</TestimonialHeading>
               <TestimonialText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor
-                neque sed imperdiet nibh lectus feugiat nunc sem.
-                {/* Os dados foram obtidos da plataforma do{' '}
-                <Link color='blue.300' href='https://brasil.io/home/'>
+
+              {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Auctor neque sed imperdiet nibh lectus feugiat nunc sem. */}
+              
+                Os dados foram obtidos da plataforma do{' '}
+                <Link color='blue.300' onClick={()=>{window.open("https://brasil.io/home/")}}>
                   Brasil.io
-                </Link> */}
+                </Link>
+                {' '}que visa tornar acessíveis os dados brasileiros de interesse público.
+                
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
@@ -124,8 +127,16 @@ const WithSpeechBubbles = () => {
             <TestimonialContent>
               <TestimonialHeading>O que é o Noctua?</TestimonialHeading>
               <TestimonialText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor
-                neque sed imperdiet nibh lectus feugiat nunc sem.
+
+              {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Auctor neque sed imperdiet nibh lectus feugiat nunc sem. */}
+
+                 É um projeto de alunos da disciplina de Métodos de Desenvolvimento de Software da{' '}
+                 <Link color='blue.300' onClick={()=>{window.open("https://fga.unb.br/")}}>
+                  Universidade de Brasília
+                </Link>
+                ,{' '}aplicando metodologias ágeis.
+
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
@@ -139,8 +150,13 @@ const WithSpeechBubbles = () => {
             <TestimonialContent>
               <TestimonialHeading>Qual o objetivo do projeto?</TestimonialHeading>
               <TestimonialText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor
-                neque sed imperdiet nibh lectus feugiat nunc sem.
+
+              {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Auctor neque sed imperdiet nibh lectus feugiat nunc sem. */}
+
+              O objetivo principal do projeto é facilitar a relação dados/usuário,
+              trazendo a transparência para leitura de informações. 
+              
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
