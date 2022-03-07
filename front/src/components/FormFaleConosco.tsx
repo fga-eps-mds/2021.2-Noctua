@@ -55,6 +55,7 @@ const FormFaleConosco= ()=> {
              <Select placeholder='' onChange={handleAssuntoChange}>
                 <option value='Feedback'>Feedback</option>
                 <option value='Problemas Técnicos'>Problemas Técnicos</option>
+                <option value='Perguntas'>Perguntas</option>
                 <option value='Reclamação'>Reclamação</option>
                 <option value='Outro'>Outro</option>
             </Select>
