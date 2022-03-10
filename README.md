@@ -41,7 +41,7 @@
 $ git clone https://github.com/fga-eps-mds/2021.2-Noctua.git
 
 # Entre na pasta do projeto
-$ cd 2021.2-Noctua
+$ cd 2021.2-Noctua/
 
 # Build do docker
 $ docker-compose build
@@ -49,7 +49,7 @@ $ docker-compose build
 # Rodando o docker
 $ docker-compose up
 ```
-Ao rodar o código a *porta 3000* estará aberta para o uso da aplicação e a porta 5000 para chamadas da api.
+Ao rodar o código a *porta 3000* estará aberta para o uso da aplicação e a *porta 5000* para chamadas da api.
 
 ### Para desenvolvimento 
 #### Como desenvolvedor é necessário ter o [Node.js](https://nodejs.org/en/download/) e [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable) instalados
@@ -59,7 +59,7 @@ Ao rodar o código a *porta 3000* estará aberta para o uso da aplicação e a p
 $ git clone https://github.com/fga-eps-mds/2021.2-Noctua.git
 
 # Entre na pasta do projeto
-$ cd 2021.2-Noctua
+$ cd 2021.2-Noctua/
 
 # Entre no front-end 
 $ cd front
@@ -68,10 +68,10 @@ $ cd front
 $ yarn
 
 # Voltar para a pasta do projeto 
-$ cd..
+$ cd ..
 
 # Entre no back-end 
-$ cd 
+$ cd /server
 
 # Instale dependências de desenvolvimento 
 $ yarn
@@ -82,7 +82,7 @@ $ docker-compose build
 # Rodando o docker
 $ docker-compose up
 ```
-Ao rodar o código a *porta 3000* estará aberta para o uso da aplicação e a porta 5000 para chamadas da api.
+Ao rodar o código a *porta 3000* estará aberta para o uso da aplicação e a *porta 5000* para chamadas da api.
 
 
 
