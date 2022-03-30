@@ -76,11 +76,11 @@ $ cd /server
 # Instale dependências de desenvolvimento 
 $ yarn
 
-# Build do docker
-$ docker-compose build
+# Build do container para desenvolvimento
+$ docker-compose -f docker-compose.dev.yml build
 
-# Rodando o docker
-$ docker-compose up
+# Rodando o docker para dev
+$ docker-compose -f docker-compose.dev.yml up
 ```
 Ao rodar o código a *porta 3000* estará aberta para o uso da aplicação e a *porta 5000* para chamadas da api.
 
