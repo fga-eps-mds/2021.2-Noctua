@@ -85,7 +85,7 @@ Estudantes|Pesquisar dados
 
 ### 3.4 Perfis dos Envolvidos
 #### 3.4.1 Equipe de desenvolvimento de software
-- **Representantes:** Pedro Henrique Nogueira Gonçalves, Mateus Caltabiano,  Matheus Soares, Matheus Perillo e João Victor Correia. 
+- **Representantes:** Pedro Henrique Nogueira Gonçalves, Mateus Caltabiano,  Matheus Soares, Matheus Perillo, João Victor Correia e Iago de Paula Cabral. 
 - **Descrição:** Responsaveis por desenvolver e gerenciar o projeto.
 - **Responsabilidades:** Desenvolver e gerenciar o projeto.
 - **Critérios de Sucesso:** Obter um projeto com qualidade e entregar a tempo. 
