@@ -7,7 +7,7 @@ Padronização das branches no projeto.
 | Data       | Versão | Descrição                                 | Autor             |
 | :--------: | :----: | :----------:                              | :---------------: |
 | 15/02/2022 |  1.0   | Criação da política de branch             | [Fellipe Pereira da Costa Silva](https://github.com/fellipepcs)|
-| 03/04/2022 |  1.1   | Revisao                                   | [Pedro Henrique Nogueira](https://github.com/phnog) [Iago Cabral0](https://github.com/iagocabral)|
+| 03/04/2022 |  1.1   | Revisao                                   | [Pedro Henrique Nogueira](https://github.com/phnog), [Iago Cabral](https://github.com/iagocabral)|
 
 
 
