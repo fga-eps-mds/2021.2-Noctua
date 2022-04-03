@@ -7,6 +7,7 @@ Padronização das branches no projeto.
 | Data       | Versão | Descrição                                 | Autor             |
 | :--------: | :----: | :----------:                              | :---------------: |
 | 15/02/2022 |  1.0   | Criação da política de branch             | [Fellipe Pereira da Costa Silva](https://github.com/fellipepcs)|
+| 03/04/2022 |  1.1   | Revisao                                   | [Pedro Henrique Nogueira](https://github.com/phnog) [Iago Cabral0](https://github.com/iagocabral)|
 
 
 
@@ -34,7 +35,7 @@ feature#87/novo-menu
 Exemplo: ```feature#22/novo-layout```
 - **Branchs hotfix:** Branches no qual são realizadas correções de bugs São criadas começando com o prefixo **hotfix/**.
 Exemplo: ```hotfix#02/correcao-botao```
-- **Branches documentation:** Branches na qual são desenvolvidos os documentos do projeto. São ciradas começando com o prefixo **documentation/**
+- **Branches documentation:** Branches na qual são desenvolvidos os documentos do projeto. São criadas começando com o prefixo **documentation/**
 Exemplo: ```documentation#49/template-documento```
 - **Branches improvement:** Branche para melhoria de algum componente e afins, seja de performance, de escrita de layout, etc. Exemplo: ```improvement#101/otimizacao-layout```
 
