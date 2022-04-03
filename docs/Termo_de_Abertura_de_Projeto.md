@@ -78,11 +78,15 @@ Arquiteto de Software | Este profissional é responsável por garantir o seguime
 Devops | O devOps permite a integração das equipes, padronizando e implementando mais velocidade nos processos. Sua atuação agrega um ciclo de planejamento e idealização, seguindo pelo desenvolvimento até o feedback do resultado final. | | [@MtsSrs](https://github.com/MtsSrs)
 Desenvolvedores | Os Desenvolvedores são as pessoas da Scrum Team que estão empenhados em criar qualquer aspecto de um Increment utilizável em cada Sprint. | [@Alladin-51](https://github.com/Alladin-51), [@MatheusHenrickSantos](https://github.com/MatheusHenrickSantos),  [@murilopbs](https://github.com/murilopbs) | [@phnog](https://github.com/phnog), [@iagocabral](https://github.com/iagocabral)
 ### 7.2. Stakeholders
-### 7.3. Meio de Comunicacao 
-Discord, Whatsapp e Telegram.
+
 Nome | Descrição 
 ---|---
 Usuario | Interessados nos dados referentes aos gastos dos deputados para produzir.
+
+### 7.3. Meio de Comunicacao 
+Discord, Whatsapp e Telegram.
+
+
 ## 8. Referências
 [Termo de abertura do projeto Acácia](https://fga-eps-mds.github.io/2019.2-Acacia/#/project_charter?id=_2-descri%c3%a7%c3%a3o-do-projeto)
 
