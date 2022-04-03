@@ -7,6 +7,7 @@ Data | Versão | Descrição | Autor
 07/02/2022 | 1.1 | Atualização do TAP | [@Julio-eng](https://github.com/Julio-eng) / [@Alladin-51](https://github.com/Alladin-51)
 22/02/2022 | 1.2 | Atualização do TAP | [@MatheusHenrickSantos](https://github.com/MatheusHenrickSantos) / [@Alladin-51](https://github.com/Alladin-51)
 06/03/2022 | 1.3 | Atualização do TAP | [@phnog](https://github.com/phnog)
+03/04/2022 | 1.4 | Revisao e Atualização do TAP | [@phnog](https://github.com/phnog)
 ## 1. Introdução
 Este documento tem como finalidade destacar o foco do projeto, mostrando o objetivo, as entregas, a duração de cada tarefa, as estimativas de custo e os riscos envolvidos.
 
@@ -77,6 +78,8 @@ Arquiteto de Software | Este profissional é responsável por garantir o seguime
 Devops | O devOps permite a integração das equipes, padronizando e implementando mais velocidade nos processos. Sua atuação agrega um ciclo de planejamento e idealização, seguindo pelo desenvolvimento até o feedback do resultado final. | | [@MtsSrs](https://github.com/MtsSrs)
 Desenvolvedores | Os Desenvolvedores são as pessoas da Scrum Team que estão empenhados em criar qualquer aspecto de um Increment utilizável em cada Sprint. | [@Alladin-51](https://github.com/Alladin-51), [@MatheusHenrickSantos](https://github.com/MatheusHenrickSantos),  [@murilopbs](https://github.com/murilopbs) | [@phnog](https://github.com/phnog), [@iagocabral](https://github.com/iagocabral)
 ### 7.2. Stakeholders
+### 7.3. Meio de Comunicacao 
+Discord, Whatsapp e Telegram.
 Nome | Descrição 
 ---|---
 Usuario | Interessados nos dados referentes aos gastos dos deputados para produzir.
