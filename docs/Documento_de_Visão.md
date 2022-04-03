@@ -5,6 +5,7 @@ Data|Versão|Descrição|Autor(es)
 31/01/2022|1.0|Abertura do documento de visão|[@MateusCaltabiano](https://github.com/MateusCaltabiano), [@MatheusSoares](https://github.com/MtsSrs), [@phnog](https://github.com/phnog) 
 11/02/2022|1.1|Adição dos tópicos 3.7, 4, 5, 6 e 7| [@MateusCaltabiano](https://github.com/MateusCaltabiano)
 06/03/2022|1.2|Atualização  do Documento de Visão | [@phnog](https://github.com/phnog) 
+03/04/2022|1.3|Revisao e Atualização do Documento de Visão | [@phnog](https://github.com/phnog), [@IagoCabral](https://github.com/iagocabral) 
 ## 1. Introdução
 ### 1.1 Objetivo
 
@@ -145,13 +146,11 @@ Facilitar a visualização de dados do governo|O site traz diversas funcionalida
 Identificador|Requisito|Prioridade
 -|-|-
 RF1|Permitir que o usuário possa pesquisar dados|Média
-RF2|Criar um histórico de pesquisa da sessão|Baixa
-RF3|Permitir feedback do usuário via formulário|Baixa
-RF4|Salvar no banco de dados as informações que serão exibidas|Alta
-RF5|Permitir que o usuário possa aplicar filtros nas pesquisas|Média
-RF6|Gerar gráficos dos dados de acordo com a necessidade|Alta
-RF7|Buscar dados na api Brasil.io caso não estejam salvos no banco|Alta
-RF8|Verificar se o dado requisitado já está salvo no banco|Alta
+RF2|Permitir feedback via formulário|Baixa
+RF3|Salvar no banco de dados as informações que serão exibidas|Alta
+RF4|Permitir que o usuário possa aplicar filtros nas pesquisas|Média
+RF5|Gerar gráficos filtrado dos dados do Deputado, seja por tipo de gastos ou por Ministério |Alta
+RF6|Verificar se o dado requisitado já está salvo no banco|Alta
 ### 7.2 Requisitos não-funcionais
 Identificador|Requisito
 -|-
