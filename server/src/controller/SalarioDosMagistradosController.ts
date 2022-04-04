@@ -18,7 +18,28 @@ async index(req: Request, res: Response):Promise<Response> {
     
         await new Promise((resolve,reject) => {
     
-          let buffer:any = [],
-              counter = 0;
+        let buffer:any = [],
+            counter = 0;
+            let stream = fs.createReadStream(csvpath)
+            .pipe(csv.parse({ headers }))
+            .on("error", reject)
+            .on("data", async (doc:any) => {
+            stream.pause();
+
+            if(doc.num_ano!= 2020){stream.resume();} else{
+            buffer.push(doc);
+            counter++;
+            log(doc);
+            try {
+                if ( counter > 10000 ) {
+                await SalarioDosMagistrados.insertMany(buffer);
+                buffer = [];
+                counter = 0;
+                }
+            } catch(e) {
+                stream.destroy(e);
+            }
     
+            stream.resume();
+            }
     }
