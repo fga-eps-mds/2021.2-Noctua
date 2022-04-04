@@ -42,4 +42,26 @@ async index(req: Request, res: Response):Promise<Response> {
     
             stream.resume();
             }
+        })
+        .on("end", async () => {
+          try {
+            if ( counter > 0 ) {
+              await SalarioDosMagistrados.insertMany(buffer);
+              buffer = [];
+              counter = 0;
+              resolve(true);
+              return res.status(200).json("Final do Stream");
+            }
+          } catch(e) {
+            stream.destroy(e);
+          }
+        });
+
+    });    
+    } catch(e) {
+        res.status(400).json(e.message);
+        console.error(e)
+    } finally {
+        process.exit()
+    }
     }
