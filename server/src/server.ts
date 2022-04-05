@@ -1,5 +1,5 @@
-import * as express from "express";
-import * as cors from 'cors';
+import  express from "express";
+import  cors from 'cors';
 import router from "./routes/routes";
 import databaseConnect from "./config/database";
 
