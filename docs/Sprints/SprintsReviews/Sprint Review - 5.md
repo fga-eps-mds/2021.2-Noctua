@@ -16,7 +16,7 @@ Duração: 7 dias
 * Comunicação
 
 ## Pontos negativos
-* Organização
+* organização
 
 ## Pontos de melhora
 * Reuniões
