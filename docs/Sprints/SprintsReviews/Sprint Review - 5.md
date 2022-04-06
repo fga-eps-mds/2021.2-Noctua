@@ -1,4 +1,4 @@
-# Sprint Review - 5
+# Sprint review - 5
 
 Inicio: 15/02/2022
 Fim: 22/02/2022
@@ -16,7 +16,7 @@ Duração: 7 dias
 * Comunicação
 
 ## Pontos negativos
-* organização
+* Organização
 
 ## Pontos de melhora
 * Reuniões
