@@ -75,6 +75,8 @@ export default class SalarioDosMagistradosController {
       return res.status(400).json(error.message);
   }
   }
-
+  async getDataPageable(req: Request, res: Response): Promise<Response> {
+   
+}
 
 }
