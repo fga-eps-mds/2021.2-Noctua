@@ -67,9 +67,14 @@ export default class SalarioDosMagistradosController {
   }
 
   async deleteAll(req: Request, res: Response): Promise<Response> {
-    
-    }
-}
+    try {
+
+      const result = await CotaParlamentar.remove();
+      return res.status(200).json("Banco deletado com sucesso ");
+    } catch (error) {
+      return res.status(400).json(error.message);
+  }
+  }
 
 
 }
