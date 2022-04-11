@@ -1,4 +1,4 @@
-# Sprint Review - 5
+# Sprint review - 5
 
 Inicio: 15/02/2022
 Fim: 22/02/2022
