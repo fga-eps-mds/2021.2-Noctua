@@ -85,7 +85,15 @@ export default class SalarioDosMagistradosController {
         const nextPage= page+1;
         const result = await CotaParlamentar.find(req.query).skip(startIndex).limit(limit);
 
-      
+        if(result.length != 0){return res.status(200).json({
+          page,
+          nextPage,
+          startIndex,
+          endIndex,
+          result});
+        }else{
+          return res.status(400).json("Não foi possível encontrar dados com as informações passadas");
+        }
     } catch (error) {
         return res.status(400).json(error.message);
     }
