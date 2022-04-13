@@ -10,7 +10,7 @@ export default class EmailController{
  enviaEmail(req:Request ,res: Response): any {
     
     const user = "Noctua.faq.unb@gmail.com"
-    const pass = process.env.PASS_ENV
+    const pass = process.env.PASS
 
     var smtpTransport = nodemailer.createTransport({
         host: "smtp.gmail.com",
