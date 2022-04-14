@@ -1,0 +1,25 @@
+{
+  "name": "2021.2-noctua",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">   <img width=\"400\" src=\"https://cdn.discordapp.com/attachments/744698026462937211/949754815217532938/unknown.png\"> </p>",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fga-eps-mds/2021.2-Noctua.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fga-eps-mds/2021.2-Noctua/issues"
+  },
+  "homepage": "https://github.com/fga-eps-mds/2021.2-Noctua#readme",
+  "devDependencies": {
+    "cypress": "^9.5.4"
+  }
+}
