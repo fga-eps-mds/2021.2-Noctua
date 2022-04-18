@@ -9,6 +9,7 @@ Data|Versão|Descrição|Autor
 15/02/2022|1.1|Mudança de tecnologia do Front-end|João Victor Correia
 06/03/2022|1.2|Adição diagrama casos de uso|Iago Cabral
 06/03/2022|1.2.1|Adição do tópico diagrama de pacotes e atualização da visão lógica|João Victor Correia
+18/04/2022|1.3|Mudança de tecnologia da ferramenta de BI e atualização da visão lógica|João Victor Correia
 
 
 
@@ -74,8 +75,8 @@ Abreviação|Significado
 <p align = "justify" > &emsp;&emsp; Isso torna o React uma tecnologia muito flexível para a solução de problemas e para a construção de interfaces reutilizáveis, uma vez que cada um destes componentes pode ser manipulado de maneira distinta. </p>
 <p align = "justify"> &emsp;&emsp; Além disso, por ser um framework que possui uma curva de aprendizado muito boa e alguns dos integrantes do grupo já terem conhecimento prévio relacionado à linguagem, ela foi selecionada para atuar no front-end.</p>
 
-#### 2.2.2 Power BI
-<p align = "justify"> &emsp;&emsp;O objetivo do Power BI é fornecer visualizações interativas e recursos de business intelligence com uma interface simples para que os usuários finais criem os seus próprios relatórios e dashboards. Por isso, ele foi escolhido como tecnologia para lidar com os dados que serão apresentados pela aplicação
+#### 2.2.2 Metabase
+<p align = "justify"> &emsp;&emsp;O objetivo do Metabase é fornecer visualizações interativas e recursos de business intelligence com uma interface simples para que os usuários finais criem os seus próprios relatórios e dashboards. Por isso, ele foi escolhido como tecnologia para lidar com os dados que serão apresentados pela aplicação.
 
 ### 2.3 Banco de Dados
 
@@ -107,16 +108,29 @@ Abreviação|Significado
 
 <p align = "justify"> &emsp;&emsp;Já em outras ações será preciso consultar um banco de dados no lado do servidor (server side), assim sendo preciso enviar uma solicitação (HttpRequest) para o servidor, utilizado o protocolo de comunicação HTTP.</p>
 
+<p align = "justify"> &emsp;&emsp;Essas requisições podem ser tratadas de duas formas.</p>
+
+#### Forma ideal:
+
 <p align = "justify"> &emsp;&emsp;Uma vez que o servidor receba a solicitação do cliente, será preciso interpretar o request com base na URL e no método HTTP utilizado. Essa computação é realizada pela camada controller que verificará a necessidade de se comunicar com a API Brasil.io para obtenção de dados. </p>
 
 <p align = "justify"> &emsp;&emsp; Caso seja necessário, o controller disparará uma requisição HTTP para obter as informações desejadas. Com a resposta da API Brasil.io, o controller enviará os dados para a camada model, que salvará no banco o JSON e logo em seguida o retornará para que o controller disponibilize para a camada view, que exibirá para o cliente.  </p>
 
 <p align = "justify"> &emsp;&emsp; Caso não precise de comunicação com a API, o controller requisitará à camada model os dados já salvos previamente, e esta o retornará para que seja exibido para o cliente na camada view. </p>
 
-<p align = "justify"> &emsp;&emsp; O tratamento dos dados será feito pela ferramenta do Power BI que gerará relatórios e dashboards. Estes que serão embutidos no React via integração disponibilizada pela Microsoft </p>
+#### Forma impletada:
+
+<p align = "justify"> &emsp;&emsp; Como a API do brasil.io está em evolução e é um projeto open source, é recomendado para projetos que necessitam dos dados completo utilizar o csv disponibilizado pelo site, pois um grande número de requisições pode sobrecarregar o servidor deles. Como o projeto Noctua é para a análise completa de dados, foi decidido utilizar o csv disponibilizado  </p>
+
+<p align = "justify"> &emsp;&emsp; Como o csv é muito extenso, foi criado um script de inserção no banco utilizando o conceito de Stream de dados que consiste em processar os dados continuamente por diversas fontes, que enviam os registros de dados simultaneamente, em tamanhos pequenos. Esse script será executado pelo back-end antes do app ir para produção para que quando os usuários forem acessar o banco já estará preenchido.</p>
+
+<p align = "justify"> &emsp;&emsp; Dessa forma, uma vez que o servidor receba a requisição HTTP, o metabase acessará os dados no banco e os retornará para o lado cliente de uma boa forma para ser visualizado(gráficos,tabelas,etc).  </p>
+
+
+<p align = "justify"> &emsp;&emsp; O tratamento dos dados será feito pela ferramenta do Metabase que gerará relatórios e dashboards. Estes que serão embutidos no React via integração disponibilizada pelo próprio site do Metabase. </p>
 
 ### 4.1 Visão Geral: Pacotes e Camadas
-<p align = "justify"> &emsp;&emsp; O sistema será desenvolvido utilizando o Django REST Framework e o Flutter. Irão se comunicar através da API REST fornecida pelo backend do sistema. </p>
+<p align = "justify"> &emsp;&emsp; O sistema será desenvolvido utilizando o NodeJs, o React e Metabase para análise de dados. Irão se comunicar através da API REST fornecida pelo backend do sistema. </p>
 
 #### 4.1.1 Diagrama de Pacotes
 ![Diagrama de Pacotes](img/diagrama_de_pacotes_front.png)
@@ -179,3 +193,5 @@ Abreviação|Significado
 > Documentação React. Disponível em: < [https://pt-br.reactjs.org/docs/getting-started.html](https://pt-br.reactjs.org/docs/getting-started.html) > Acesso em: 16 de janeiro de 2022
 
 > TEMPLATE Documento de Arquitetura de Software. Disponível em: < [https://github.com/DroidFoundry/DroidMetronome/wiki/TEMPLATE-Documento-de-Arquitetura-de-Software](https://github.com/DroidFoundry/DroidMetronome/wiki/TEMPLATE-Documento-de-Arquitetura-de-Software) > Acesso em: 31 de janeiro de 2022
+
+> Documentação Metabase. Disponível em: < [https://www.metabase.com/](https://www.metabase.com/) > Acesso em: 18 de abril de 2022
