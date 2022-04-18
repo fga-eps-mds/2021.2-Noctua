@@ -18,9 +18,44 @@ Nosso incentivo veio do site PortalTransparencia, um site publico que mostra vá
         <td align="center"><a href="https://github.com/MateusCaltabiano"><img onmouseover="opaqImg(this)" onmouseout="normalImg(this)" style="border-radius: 50%; opacity: 1;" src="https://avatars.githubusercontent.com/MateusCaltabiano " alt="" width="200px;"><br><sub><b>Mateus Caltabiano Neves Frauzino</b></sub></a><br><a href="https://github.com/MateusCaltabiano"></a></td>
         <td align="center"><a href="https://github.com/CorreiaJV"><img onmouseover="opaqImg(this)" onmouseout="normalImg(this)" style="border-radius: 50%;" src="https://avatars.githubusercontent.com/CorreiaJV " alt="" width="250px;"><br><sub><b>Joao Victor Correia de Oliveira</b></sub></a><br><a href="https://github.com/CorreiaJV"></a></td>
         <td align="center"><a href="https://github.com/phnog"><img onmouseover="opaqImg(this)" onmouseout="normalImg(this)" style="border-radius: 50%; opacity: 1;" src="https://avatars.githubusercontent.com/phnog" alt="" width="200px;"><br><sub><b>Pedro Henrique Nogueira Gonçalves</b></sub></a><br><a href="https://github.com/phnog"></a></td>
-        <td align="center"><a href="https://avatars.githubusercontent.com/u/87732154?v=4"><img onmouseover="opaqImg(this)" onmouseout="normalImg(this)" style="border-radius: 50%;" src="https://avatars.githubusercontent.com/iagocabral" alt="" width="250px;"><br><sub><b>Iago de Paula Cabral</b></sub></a><br><a href="https://github.com/matheuscvp"></a></td>
-        <td align="center"><a href="https://github.com/vital14"><img onmouseover="opaqImg(this)" onmouseout="normalImg(this)" style="border-radius: 50%; opacity: 1;" src="https://avatars.githubusercontent.com/MatheusPerillo" alt="" width="200px;"><br><sub><b>Matheus Moreira Lopes Perillo</b></sub></a><br><a href="https://github.com/MatheusPerillo"></a></td> 
-          
+        <td align="center"><a href="https://github.com/iagocabral"><img onmouseover="opaqImg(this)" onmouseout="normalImg(this)" style="border-radius: 50%;" src="https://avatars.githubusercontent.com/iagocabral" alt="" width="250px;"><br><sub><b>Iago de Paula Cabral</b></sub></a><br><a href="https://github.com/iagocabral"></a></td>
+        <td align="center"><a href="https://github.com/MatheusPerillo"><img onmouseover="opaqImg(this)" onmouseout="normalImg(this)" style="border-radius: 50%; opacity: 1;" src="https://avatars.githubusercontent.com/MatheusPerillo" alt="" width="200px;"><br><sub><b>Matheus Moreira Lopes Perillo</b></sub></a><br><a href="https://github.com/MatheusPerillo"></a></td>      
+    </tr> 
+    <script>
+    function opaqImg(x) {
+        x.style.opacity = "50%";
+    }
+    function normalImg(x) {
+        x.style.opacity = "100%";
+    }
+    </script>
+</tbody></table></div></div>
+
+<div class="md-typeset__scrollwrap"><div class="md-typeset__table"><table>
+    <tbody><tr>
+        <td align="center"><a href="https://github.com/EuricoAbreu"><img onmouseover="opaqImg(this)" onmouseout="normalImg(this)" style="border-radius: 50%; opacity: 1;" src="https://avatars.githubusercontent.com/EuricoAbreu" alt="" width="75px;"><br><sub><b>Eurico Abreu</b></sub></a><br><a href="https://github.com/MtsSrs"></a></td>
+        <td align="center"><a href="https://github.com/Fellipepcs"><img onmouseover="opaqImg(this)" onmouseout="normalImg(this)" style="border-radius: 50%; opacity: 1;" src="https://avatars.githubusercontent.com/Fellipepcs " alt="" width="75px;"><br><sub><b>Fellipe Pereira</b></sub></a><br><a href="https://github.com/lucascard"></a></td>
+        <td align="center"><a href="https://github.com/lucascard"><img onmouseover="opaqImg(this)" onmouseout="normalImg(this)" style="border-radius: 50%;" src="https://avatars.githubusercontent.com/lucascard " alt="" width="75px;"><br><sub><b>Lucas Cardoso</b></sub></a><br><a href="https://github.com/lucascard"></a></td>
+        <td align="center"><a href="https://github.com/matheusmsvieira"><img onmouseover="opaqImg(this)" onmouseout="normalImg(this)" style="border-radius: 50%; opacity: 1;" src="https://avatars.githubusercontent.com/matheusmsvieira" alt="" width="75px;"><br><sub><b>Matheus Moreira</b></sub></a><br><a href="https://github.com/matheusmsvieira"></a></td>  
+    </tr> 
+    <script>
+    function opaqImg(x) {
+        x.style.opacity = "50%";
+    }
+    function normalImg(x) {
+        x.style.opacity = "100%";
+    }
+    </script>
+</tbody></table></div></div>
+
+<div class="md-typeset__scrollwrap"><div class="md-typeset__table"><table>
+    <tbody><tr>
+        <td align="center"><a href="https://github.com/murilopbs"><img onmouseover="opaqImg(this)" onmouseout="normalImg(this)" style="border-radius: 50%; opacity: 1;" src="https://avatars.githubusercontent.com/murilopbs" alt="" width="200px;"><br><sub><b>Murilo Perazzo Souto</b></sub></a><br><a href="https://github.com/murilopbs"></a></td>
+        <td align="center"><a href="https://github.com/ian-dcg"><img onmouseover="opaqImg(this)" onmouseout="normalImg(this)" style="border-radius: 50%; opacity: 1;" src="https://avatars.githubusercontent.com/ian-dcg " alt="" width="200px;"><br><sub><b>Ian da Costa Gama</b></sub></a><br><a href="https://github.com/ian-dcg"></a></td>
+        <td align="center"><a href="https://github.com/MatheusHenrickSantos"><img onmouseover="opaqImg(this)" onmouseout="normalImg(this)" style="border-radius: 50%;" src="https://avatars.githubusercontent.com/MatheusHenrickSantos " alt="" width="200px;"><br><sub><b>Matheus Henrick Dutra dos Santos</b></sub></a><br><a href="https://github.com/MatheusHenrickSantos"></a></td>
+        <td align="center"><a href="https://github.com/charles-serafim"><img onmouseover="opaqImg(this)" onmouseout="normalImg(this)" style="border-radius: 50%; opacity: 1;" src="https://avatars.githubusercontent.com/charles-serafim" alt="" width="200px;"><br><sub><b>Charles Manrique Serafim Morais</b></sub></a><br><a href="https://github.com/charles-serafim"></a></td>
+        <td align="center"><a href="https://github.com/Julio-eng"><img onmouseover="opaqImg(this)" onmouseout="normalImg(this)" style="border-radius: 50%;" src="https://avatars.githubusercontent.com/Julio-eng" alt="" width="250px;"><br><sub><b>Júlio César Martins França</b></sub></a><br><a href="https://github.com/Julio-eng"></a></td>
+        <td align="center"><a href="https://github.com/Alladin-51"><img onmouseover="opaqImg(this)" onmouseout="normalImg(this)" style="border-radius: 50%; opacity: 1;" src="https://avatars.githubusercontent.com/Alladin-51" alt="" width="200px;"><br><sub><b>Igor Thiago Lima de Santana</b></sub></a><br><a href="https://github.com/Alladin-51"></a></td>      
     </tr> 
     <script>
     function opaqImg(x) {
