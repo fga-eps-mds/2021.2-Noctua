@@ -71,7 +71,10 @@ $ yarn
 $ cd ..
 
 # Entre no back-end 
-$ cd /server
+$ cd server
+
+# Voltar para a pasta do projeto 
+$ cd ..
 
 # Instale dependências de desenvolvimento 
 $ yarn
