@@ -5,6 +5,7 @@
 |Data|Versão|Descrição| Autor(es)
 |--|--|--|--|
 |08/03/2022|1.0|Criação do documento | [@phnog](https://github.com/phnog) |
+|19/04/2022|1.1|Correções gramaticais | [@EuricoAbreu](https://github.com/EuricoAbreu) |
 
 ## 1 Introdução
 <p align = "justify"> &emsp;&emsp; Este documento trata acerca do guia de estilo e manual de identdade visual do projeto.</p>
@@ -15,7 +16,7 @@
 
 ## 3 Detalhamento e Justificativas
 ### 3.1 Nome
-<p align = "justify"> &emsp;&emsp; Noctua e uma palavra do latim que significa Coruja. Para muitos povos a coruja significa mistério, inteligência, sabedoria e conhecimento. Ela tem a capacidade de enxergar através da escuridão, conseguindo ver o que os outros não veem. Com isso em mente, decidimos adotar esse animal como a identidade do nosso projeto, mostrar para o usuario o que ele nao conseguiria enxergar normalmente.</p>
+<p align = "justify"> &emsp;&emsp; Noctua é uma palavra do latim que significa Coruja. Para muitos povos a coruja significa mistério, inteligência, sabedoria e conhecimento. Ela tem a capacidade de enxergar através da escuridão, conseguindo ver o que os outros não veem. Com isso em mente, decidimos adotar esse animal como a identidade do nosso projeto, mostrar para o usuário o que ele não conseguiria enxergar normalmente.</p>
 
 ### 3.2 Fontes
 <p align = "justify"> &emsp;&emsp; As fontes utilizadas na aplicação são: </p>
