@@ -6,6 +6,7 @@ Data|Versão|Descrição|Autor(es)
 11/02/2022|1.1|Adição dos tópicos 3.7, 4, 5, 6 e 7| [@MateusCaltabiano](https://github.com/MateusCaltabiano)
 06/03/2022|1.2|Atualização  do Documento de Visão | [@phnog](https://github.com/phnog) 
 03/04/2022|1.3|Revisao e Atualização do Documento de Visão | [@phnog](https://github.com/phnog), [@IagoCabral](https://github.com/iagocabral) 
+18/04/2022|1.4|Atualização do Documento de Visão |[@MatheusSoares](https://github.com/MtsSrs)
 ## 1. Introdução
 ### 1.1 Objetivo
 
@@ -13,7 +14,7 @@ Data|Versão|Descrição|Autor(es)
 
 ### 1.2 Escopo
 
-<p align = "justify"> &emsp;&emsp;O objetivo mor do projeto é facilitar a relação dados/usuário. A mediação será feita por intermédio de um aplicativo que coadjuve no melhor entendimento de uma grande quantidade de dados.</p>
+<p align = "justify"> &emsp;&emsp;Durante as eleições sabe-se que o conhecimento do candidato é indispensável para o eleitor. Compreendendo isto, o objetivo principal do projeto é facilitar a relação dados/usuário, trazendo a transparência para leitura de informações. A mediação será feita por um produto que consome os dados governamentais disponibilizados pelo Brasil.io e mostra de para o usuário de uma forma mais amigável.</p>
 
 ### 1.3 Definições, Acrônimos e Abreviações
 
@@ -21,18 +22,10 @@ Abreviação|Significado
 -|-
 **UnB**|Universidade de Brasília
 **MDS**|Métodos de Desenvolvimento de Software
+**RF**|Requisitos Funcionais
+**RNF**|Requisitos Não Funcionais
 
-### 1.4 Referências
-> IBM Knowledge Center - Documento de Visão. Disponível em: [https://www.ibm.com/support/knowledgecenter/pt-br/SSYMRC_6.0.3/com.ibm.rational.rrm.help.doc/topics/r_vision_doc.html](https://www.ibm.com/support/knowledgecenter/pt-br/SSYMRC_6.0.3/com.ibm.rational.rrm.help.doc/topics/r_vision_doc.html) 
-> > Acesso em: 31 de Janeiro de 2022
-
-> Acacia - Documento de Visão. Disponível em: https://fga-eps-mds.github.io/2019.2-Acacia/#/vision_document
-> >Acesso em: 31 de Janeiro de 2022
-
-> Hortum - Documento de Visão. Disponível em: https://fga-eps-mds.github.io/2020.2-Hortum/Documento_de_visao/
-> >Acesso em: 31 de Janeiro de 2022
-
-### 1.5 Visão Geral
+### 1.4 Visão Geral
 ***
 **Introdução:**  Introdução ao projeto.
 ***
@@ -49,6 +42,10 @@ Abreviação|Significado
 **Requisitos Funcionais:** Funcionalidades, Prioridades e Capacidades.
 ***
 ## 2. Posicionamento
+
+O problema é|que afeta|cujo impacto é|uma boa solução seria
+-|-|-|-
+Dificuldade na busca de dados sobre candidatos|O Processo Eleitoral|Eleição de candidatos sem conhecimento de suas ações|A criação de um dashboard que mostra em suma todas os gastos do candidato e do seu gabinete
 
 ### 2.1 Oportunidade de negócios
 
@@ -159,6 +156,14 @@ RNF2|O ambiente de produção deve ser configurado de modo que sempre contenha u
 RNF3|O ambiente de homologação deve ser configurado de modo que as versões mais recentes sejam testadas
 RNF4|O ambiente de desenvolvimento deve ser configurado de modo que todos utilizem as mesmas versões das linguagens e frameworks
 
+## 8. Referências
+> IBM Knowledge Center - Documento de Visão. Disponível em: [https://www.ibm.com/support/knowledgecenter/pt-br/SSYMRC_6.0.3/com.ibm.rational.rrm.help.doc/topics/r_vision_doc.html](https://www.ibm.com/support/knowledgecenter/pt-br/SSYMRC_6.0.3/com.ibm.rational.rrm.help.doc/topics/r_vision_doc.html) 
+> > Acesso em: 31 de Janeiro de 2022
 
+> Acacia - Documento de Visão. Disponível em: https://fga-eps-mds.github.io/2019.2-Acacia/#/vision_document
+> >Acesso em: 31 de Janeiro de 2022
+
+> Hortum - Documento de Visão. Disponível em: https://fga-eps-mds.github.io/2020.2-Hortum/Documento_de_visao/
+> >Acesso em: 31 de Janeiro de 2022
 
 
