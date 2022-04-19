@@ -74,7 +74,7 @@ Problemas pessoais e de saúde | Organizar o grupo para que, no caso de ausênci
 ## 7. Organização do projeto
 ### 7.1. Equipe envolvida
 
-Papel | Responsabilidade | Time ? | Time B | Time ?  |
+Papel | Responsabilidade | Time A | Time B | Time C  |
 ---|---|---|---|---|
 Scrum Master | O Scrum Master é responsável pela implementação do Scrum tal como definido no Guia do Scrum. Ajudando todos a compreender a teoria e a prática do Scrum, tanto dentro da Scrum Team como dentro da organização. |[@Charles-serafim](https://github.com/charles-serafim)| [@MateusCaltabiano](https://github.com/MateusCaltabiano)
 Product Owner | O Product Owner é responsável por maximizar o valor do produto resultante do trabalho da Scrum Team. O Product Owner é também responsável pela gestão eficaz do Product Backlog. | [@Julio-eng](https://github.com/Julio-eng) | [@MatheusPerillo](https://github.com/MatheusPerillo)
