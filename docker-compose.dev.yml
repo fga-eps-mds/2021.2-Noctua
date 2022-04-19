@@ -38,3 +38,9 @@ services:
             - "3000:3000"
         depends_on:
             - api
+
+    metabase:
+        container_name: metabase
+        image: metabase/metabase
+        ports: 
+            - "1515:3000"
