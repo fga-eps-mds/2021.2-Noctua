@@ -247,9 +247,9 @@ import { useNavigate } from 'react-router-dom';
           href: 'gastos-deputados',
         },
         {
-          label: 'Gastos do Governo Federal',
-          subLabel: 'Infográficos referentes aos pagamentos para aquisição e contratação de obras e compras governamentais',
-          href: '#',
+          label: 'Salário dos magistrados',
+          subLabel: 'Infográficos referentes aos pagamentos efetuados aos magistrados',
+          href: 'salario-magistrados',
         },
         {
             label: 'Dados eleições do Brasil',
