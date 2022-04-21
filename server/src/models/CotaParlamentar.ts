@@ -7,7 +7,7 @@ const CotaParlamentarSchema = new Schema({
        
     },
     data_emissao:{
-        type:"String",
+        type:"Date",
        
     },
     id_documento:{
@@ -102,19 +102,19 @@ const CotaParlamentarSchema = new Schema({
        
     },
     vlr_documento:{
-        type:"String",
+        type:"Number",
        
     },
     vlr_glosa:{
-        type:"String",
+        type:"Number",
        
     },
     vlr_liquido:{
-        type:"String",
+        type:"Number",
        
     },
     vlr_restituicao:{
-        type:"String",
+        type:"Number",
        
     },
 
