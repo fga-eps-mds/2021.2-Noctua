@@ -70,7 +70,7 @@ export default class SalarioDosMagistradosController {
     try {
 
       const result = await SalarioDosMagistrados.remove();
-      return res.status(200).json("Banco deletado com sucesso ");
+      return res.status(200).json("O banco foi deletado. Requisição delete!");
     } catch (error) {
       return res.status(400).json(error.message);
   }
