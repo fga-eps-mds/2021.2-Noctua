@@ -50,7 +50,7 @@ export default class SalarioDosMagistradosController {
                 buffer = [];
                 counter = 0;
                 resolve(true);
-                return res.status(200).json("Final do Stream");
+                return res.status(200).json("Final do Stream. Requisição concluida");
               }
             } catch (e) {
               stream.destroy(e);
@@ -97,6 +97,6 @@ export default class SalarioDosMagistradosController {
     } catch (error) {
         return res.status(400).json(error.message);
     }
-}
+} 
 
 }
