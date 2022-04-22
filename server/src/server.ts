@@ -12,7 +12,6 @@ async function init (){
 
     const PORT = process.env.PORT || 5000;
     
-    await databaseConnect();
     
     app.use(cors());
     
@@ -25,7 +24,10 @@ async function init (){
     app.listen(PORT, () => {
         console.log(`O servidor está rodando na porta ${PORT}`);
     });
-    } catch (error) {
+
+    await databaseConnect();
+    
+} catch (error) {
         console.log(error);
     }    
 }
