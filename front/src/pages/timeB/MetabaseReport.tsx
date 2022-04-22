@@ -7,8 +7,8 @@ import { Center } from "@chakra-ui/react";
 
 var jwt = require("jsonwebtoken");
 
-var METABASE_SITE_URL = "http://localhost:1515";
-var METABASE_SECRET_KEY = "e008c87dbadcd77aba00960437254fc53e326931c5f510713512789a432d5958";
+var METABASE_SITE_URL = "http://noctua-metabase.herokuapp.com";
+var METABASE_SECRET_KEY = "32a669105e89d84872273f6d135566dff4a3c13942b23cc53960efd5bb20ecf7";
 
 var payload = {
   resource: { dashboard: 1 },
