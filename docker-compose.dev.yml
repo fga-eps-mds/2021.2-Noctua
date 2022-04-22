@@ -24,6 +24,7 @@ services:
             - DATABASE_URL=mongodb+srv://Noctua:C5JibXCZ1UBfWLlP@cluster0.cx2qk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
         build:
             context: ./server
+            dockerfile: Dockerfile.dev
         ports:
             - "5000:5000"
         command: npm start
