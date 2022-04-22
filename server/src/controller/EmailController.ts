@@ -1,6 +1,7 @@
 import { Request,Response } from "express";
 import * as nodemailer from 'nodemailer';
 import { getMaxListeners } from "process";
+import 'dotenv/config';
 
 import Email from "../models/Email";
 
@@ -9,7 +10,7 @@ export default class EmailController{
  enviaEmail(req:Request ,res: Response): any {
     
     const user = "Noctua.faq.unb@gmail.com"
-    const pass = "120819Mjpi"
+    const pass = process.env.PASS
 
     var smtpTransport = nodemailer.createTransport({
         host: "smtp.gmail.com",
