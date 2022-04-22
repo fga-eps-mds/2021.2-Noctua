@@ -28,7 +28,7 @@ async downloadCsv(req:Request, res:Response):Promise<Response>{
             .on("data", async (doc:any) => {
               stream.pause();
 
-              if(doc.num_ano!= 2020){stream.resume();} else{
+              if(doc.num_ano!= 2019){stream.resume();} else{
               buffer.push(doc);
               counter++;
               log(doc);
