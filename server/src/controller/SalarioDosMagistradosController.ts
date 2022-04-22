@@ -2,13 +2,13 @@ import { query, Request, Response } from "express";
 import fs from 'mz/fs.js'
 import * as csv from '@fast-csv/parse'
 import path from 'path'
-import { SalarioDosMagistrados } from "../model/SalarioDosMagistrados";
+import SalarioDosMagistrados from "../models/SalarioDosMagistrados";
 
 
 export default class SalarioDosMagistradosController {
 
   async index(req: Request, res: Response): Promise<Response> {
-    const csvpath = path.resolve('src/datasets', "/salario_dos_magistrados.csv");
+    const csvpath = path.resolve('src/datasets', "./salario_dos_magistrados.csv");
     const log = (data: any) => console.log(JSON.stringify(data, undefined, 2));
     try {
       let headers = Object.keys(SalarioDosMagistrados.schema.paths)
@@ -26,7 +26,7 @@ export default class SalarioDosMagistradosController {
           .on("data", async (doc: any) => {
             stream.pause();
 
-            if (doc.num_ano != 2020) { stream.resume(); } else {
+            if (doc.mesano_de_referencia != "2018-4-01") { stream.resume(); } else {
               buffer.push(doc);
               counter++;
               log(doc);
@@ -69,7 +69,7 @@ export default class SalarioDosMagistradosController {
   async deleteAll(req: Request, res: Response): Promise<Response> {
     try {
 
-      const result = await CotaParlamentar.remove();
+      const result = await SalarioDosMagistrados.remove();
       return res.status(200).json("Banco deletado com sucesso ");
     } catch (error) {
       return res.status(400).json(error.message);
@@ -83,7 +83,7 @@ export default class SalarioDosMagistradosController {
         const startIndex = (page - 1) * limit;
         const endIndex = page * limit;
         const nextPage= page+1;
-        const result = await CotaParlamentar.find(req.query).skip(startIndex).limit(limit);
+        const result = await SalarioDosMagistrados.find(req.query).skip(startIndex).limit(limit);
 
         if(result.length != 0){return res.status(200).json({
           page,
