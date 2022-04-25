@@ -1,4 +1,4 @@
-# Sprint Review - 8
+# Sprint Review - 8 - Time B
 
 ## Visão geral
 

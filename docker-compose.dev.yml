@@ -6,6 +6,12 @@ services:
       command: mongod --quiet --logpath /dev/null
       ports: 
           - 27017:27017
+    
+    metabase:
+        container_name: metabase
+        image: metabase/metabase
+        ports: 
+            - "1515:3000"
 
     api:
         depends_on:
@@ -15,9 +21,10 @@ services:
             - ./server/node_modules:/app/node_modules
         container_name: backend_noctua
         environment:
-            - DATABASE_URL=mongodb://db/noctua
+            - DATABASE_URL=mongodb+srv://Noctua:C5JibXCZ1UBfWLlP@cluster0.cx2qk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
         build:
             context: ./server
+            dockerfile: Dockerfile.dev
         ports:
             - "5000:5000"
         command: npm start
@@ -38,3 +45,5 @@ services:
             - "3000:3000"
         depends_on:
             - api
+
+   

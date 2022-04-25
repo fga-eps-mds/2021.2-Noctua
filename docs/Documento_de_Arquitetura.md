@@ -11,6 +11,8 @@ Data|Versão|Descrição|Autor
 06/03/2022|1.2.1|Adição do tópico diagrama de pacotes e atualização da visão lógica|João Victor Correia
 18/04/2022|1.3|Mudança de tecnologia da ferramenta de BI e atualização da visão lógica|João Victor Correia
 25/04/2022|1.3.1|Adicionado tópicos ao diagrama de pacotes|Iago Cabral, Pedro Henrique Nogueira
+21/04/2022|1.3|Alteração do recurso B.i, adicionado tópicos ao diagrama de pacotes|Iago Cabral, Pedro Henrique Nogueira
+
 
 
 
@@ -79,9 +81,14 @@ Abreviação|Significado
 #### 2.2.2 Metabase
 <p align = "justify"> &emsp;&emsp;O objetivo do Metabase é fornecer visualizações interativas e recursos de business intelligence com uma interface simples para que os usuários finais criem os seus próprios relatórios e dashboards. Por isso, ele foi escolhido como tecnologia para lidar com os dados que serão apresentados pela aplicação.
 
+#### 2.2.2 MetaBase
+
+<p align = "justify"> &emsp;&emsp;O objetivo do MetaBase é fornecer visualizações interativas e recursos de business intelligence com uma interface simples para que os usuários finais criem os seus próprios relatórios e dashboards. Por isso, ele foi escolhido como tecnologia para lidar com os dados que serão apresentados pela aplicação</p>
+
 ### 2.3 Banco de Dados
 
 #### 2.3.1 MongoDB
+
 <p align = "justify"> &emsp;&emsp;O MongoDB é um banco de dados opensource, de alta performance e flexível, sendo considerado o principal banco de dados NoSQL. É orientado a documentos, ou seja, os dados são armazenados como documentos, ao contrário de bancos de dados de modelo relacional, onde é trabalhado com registros em linhas e colunas. Os documentos podem ser descritos como dados no formato de chave-valor, no caso, utilizando o formato JSON (JavaScript Object Notation).</p>
 
 <p>
@@ -104,7 +111,7 @@ Abreviação|Significado
 - A aplicação buscará obter ao menos 90% de cobertura em testes, garantindo assim a funcionalidade do sistema.
 
 ## 4. Visão Lógica
-![Visão Lógica](img/visao_logica.png)
+![Visão Lógica](https://github.com/fga-eps-mds/2021.2-Noctua/blob/main/docs/img/visao_logica.png?raw=true)
 <p align = "justify"> &emsp;&emsp; As ações do usuário no ambiente web serão interpretadas pelo React como ações. Algumas dessas poderão ser tratadas no lado do cliente (client side), como ações de iteratividade que não precisam de comunicação externa.</p>
 
 <p align = "justify"> &emsp;&emsp;Já em outras ações será preciso consultar um banco de dados no lado do servidor (server side), assim sendo preciso enviar uma solicitação (HttpRequest) para o servidor, utilizado o protocolo de comunicação HTTP.</p>
@@ -167,6 +174,10 @@ Abreviação|Significado
             - **database.ts**: Arquivo de configuração e conexão do banco de dados.
             - **server.ts**: Arquivo inicial do servidor que faz o intermedio do banco e a API.
     - **jest**: Diretório contendo os testes unitários.
+            - **server.ts**: Arquivo inicial do servidor que faz o intermedio do banco 
+            e a API.
+    - **jest**: Diretório contendo os testes unitários.
+    - **cypress**: Diretórios de testes automatizados.
     - **MongoDB**: banco de dados da aplicação.
 ## 5. Visão de Casos de Uso
 

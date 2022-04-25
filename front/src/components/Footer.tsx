@@ -1,20 +1,15 @@
 import {
     Box,
     Image,
-    chakra,
     Container,
     Stack,
     Text,
-    useColorModeValue,
-    VisuallyHidden,
-    IconButton, 
-    Button,
+    IconButton,
     HStack
   } from '@chakra-ui/react';
   import { FaGithub} from 'react-icons/fa';
   import {  HiOutlineMail } from 'react-icons/hi';
   import {  SiDiscord } from 'react-icons/si';
-  import { ReactNode } from 'react';
   
   const Logo = (props: any) => {
     return (
@@ -30,36 +25,7 @@ import {
     );
   };
   
-  const SocialButton = ({
-    children,
-    label,
-    href,
-  }: {
-    children: ReactNode;
-    label: string;
-    href: string;
-  }) => {
-    return (
-      <chakra.button
-        bg={useColorModeValue('blackAlpha.100', 'whiteAlpha.100')}
-        rounded={'full'}
-        w={8}
-        h={8}
-        cursor={'pointer'}
-        as={'a'}
-        href={href}
-        display={'inline-flex'}
-        alignItems={'center'}
-        justifyContent={'center'}
-        transition={'background 0.3s ease'}
-        _hover={{
-          bg: useColorModeValue('blackAlpha.300', 'whiteAlpha.200'),
-        }}>
-        <VisuallyHidden>{label}</VisuallyHidden>
-        {children}
-      </chakra.button>
-    );
-  };
+  
   
   export default function SmallWithLogoLeft() {
     return (
