@@ -1,6 +1,7 @@
 import { Request,Response } from "express";
 import * as nodemailer from 'nodemailer';
 import { getMaxListeners } from "process";
+import 'dotenv/config';
 
 import Email from "../models/Email";
 
