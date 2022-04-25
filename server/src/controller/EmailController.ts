@@ -9,7 +9,7 @@ export default class EmailController{
 
  enviaEmail(req:Request ,res: Response): any {
     
-    const user = "Noctua.faq.unb@gmail.com"
+    const user = "noctuasuporte@gmail.com"
     const pass = "120819Mjpi"
 
     var smtpTransport = nodemailer.createTransport({
