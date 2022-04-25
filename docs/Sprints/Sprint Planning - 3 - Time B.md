@@ -1,4 +1,4 @@
-# Sprint Planning - 3
+# Sprint Planning - 3 - Time B
 
 ## Visão geral
 

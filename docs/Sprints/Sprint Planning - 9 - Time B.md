@@ -1,4 +1,4 @@
-# Sprint Planning - 9
+# Sprint Planning - 9 - Time B
 
 Início: 29/03/2022
 Fim: 05/04/2022

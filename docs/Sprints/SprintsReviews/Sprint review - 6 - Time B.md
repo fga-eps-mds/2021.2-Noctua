@@ -1,4 +1,4 @@
-# Sprint review - 6
+# Sprint review - 6 - Time B
 
 ## Visão geral
 
@@ -15,7 +15,7 @@ Duração: 7 dias
 | Atualizacão do TAP                        | Concluída |
 | Criação de uma nova logo                  | Concluída |
 | Arrumar o Documento de Metodologia        | Concluída |
-| Criação da home page do projeto            |       Concluída    |
+| Criação da home page do projeto           | Concluída |
 | Criação do Relatório Power BI             | Concluída |
 | Implementação da feature "Fale conosco"   | Concluída |
 | Criação de e-mail e discord do projeto    | Concluída |
