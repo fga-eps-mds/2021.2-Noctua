@@ -25,3 +25,9 @@ Este documento visa dar uma breve finalização para a matéria Métodos de Dese
 ### Ideias não concretizadas
 
 Seguem algumas ideias que tivemos para o projeto mas acabaram não podendo ser concretizadas
+
+#### Power BI
+
+Inicialmente a ideia era fazer o tratamento dos dados utilizando a ferramenta da Microsoft e achamos que seria interessante trazer nosso resultado final com ela
+
+![](https://i.imgur.com/zKsSOk2.png)
