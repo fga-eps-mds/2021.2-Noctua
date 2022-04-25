@@ -18,55 +18,55 @@ const SalarioMagistradosSchema = new Schema({
        
     },
     subsidio:{
-        type:"String",
+        type:"Number",
        
     },
     direitos_pessoais:{
-        type:"String",
+        type:"Number",
        
     },
     indenizacoes:{
-        type:"String",
+        type:"Number",
        
     },
     direitos_eventuais:{
-        type:"String",
+        type:"Number",
        
     },
     total_de_rendimentos:{
-        type:"String",
+        type:"Number",
        
     },
     previdencia_publica:{
-        type:"String",
+        type:"Number",
        
     },
     imposto_de_renda:{
-        type:"String",
+        type:"Number",
        
     },
     descontos_diversos:{
-        type:"String",
+        type:"Number",
        
     },
     retencao_por_teto_constitucional:{
-        type:"String",
+        type:"Number",
        
     },
     total_de_descontos:{
-        type:"String",
+        type:"Number",
        
     },
     rendimento_liquido:{
-        type:"String",
+        type:"Number",
        
     },
     remuneracao_do_orgao_de_origem:{
-        type:"String",
+        type:"Number",
        
     },
     diarias:{
-        type:"String",
+        type:"Number",
        
     },
     url:{
