@@ -16,3 +16,10 @@ Duração: 7 dias
 | Documentar planning da sprint 12        | Concluída |
 | Documentar review da Sprint 12          | Concluída |
 | Implementar testes unitários com o Jest | Concluída |
+
+## Pontos positivos
+
+* Comunicação
+* Determinação para finalizar o trabalho
+* Organização
+* Sentimento de ter finalizado o projeto
