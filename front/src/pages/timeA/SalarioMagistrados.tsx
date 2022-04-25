@@ -1,11 +1,11 @@
 import React from 'react';
-import PowerBiReport from './PowerBiReport';
+import MetabaseSalarioReport from './MetabaseSalario';
 
 
 const  SalariosMagistrados=()=> {
   return (
     <>
-      <PowerBiReport/>
+      <MetabaseSalarioReport/>
     </>
   );
 }
