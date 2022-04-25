@@ -5,7 +5,7 @@ import { Center } from "@chakra-ui/react";
 
 var jwt = require("jsonwebtoken");
 
-var METABASE_SITE_URL = "http://noctua-metabase.herokuapp.com";
+var METABASE_SITE_URL = "https://noctua-metabase.herokuapp.com";
 var METABASE_SECRET_KEY = "32a669105e89d84872273f6d135566dff4a3c13942b23cc53960efd5bb20ecf7";
 
 var payload = {
