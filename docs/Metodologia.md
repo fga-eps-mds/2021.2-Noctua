@@ -4,7 +4,8 @@
 | Data |Versão|Descrição| Autor             |
 | ------ | --- | --- | ----------------- |
 | 31/01/2022  |1.0|Abertura do documento| [@MateusCaltabiano](https://github.com/MateusCaltabiano) |
-| 06/03/2022 | 1.1 | Atualização  do Documento de Metodologia | [@phnog](https://github.com/phnog) | 
+| 06/03/2022 | 1.1 | Atualização  do Documento de Metodologia | [@phnog](https://github.com/phnog) 
+25/04/2022 | 1.2 | Atualização  do Documento de Metodologia | [@MatheusPerillo](https://github.com/MatheusPerillo)
 
 ## Introdução
 
@@ -102,16 +103,13 @@ nosso projeto, como a integração contínua.
 
 ### Papéis da equipe
 
-
-
-| Nome                | Função                |
-| ------------------- | --------------------- |
-| Iago Cabral         | Desenvolvedor         |
-| João Victor Correia | Arquiteto de Software |
-| Mateus Caltabiano   | Scrum Master          |
-| Matheus Perillo     | Project Owner         |
-| Matheus Soares      | DevOps                |
-| Pedro Henrique      | Desenvolvedor         |
+Papel | Responsabilidade | Time A | Time B | Time C  |
+---|---|---|---|---|
+Scrum Master | O Scrum Master é responsável pela implementação do Scrum tal como definido no Guia do Scrum. Ajudando todos a compreender a teoria e a prática do Scrum, tanto dentro da Scrum Team como dentro da organização. | [@lucascard](https://github.com/lucascard) | [@MateusCaltabiano](https://github.com/MateusCaltabiano)
+Product Owner | O Product Owner é responsável por maximizar o valor do produto resultante do trabalho da Scrum Team. O Product Owner é também responsável pela gestão eficaz do Product Backlog. | [@matheusmsvieira](https://github.com/matheusmsvieira) | [@MatheusPerillo](https://github.com/MatheusPerillo) | [@Julio-eng](https://github.com/Julio-eng)
+Arquiteto de Software | Este profissional é responsável por garantir o seguimento das diretrizes de um projeto de desenvolvimento de software que normalmente são: qualidade dos sistemas, contexto organizacional, funcionalidade, usabilidade, performance, desempenho e baixo custo de investimento. |  | [@CorreiaJV](https://github.com/CorreiaJV) | [@ian-dcg](https://github.com/ian-dcg)
+Devops | O devOps permite a integração das equipes, padronizando e implementando mais velocidade nos processos. Sua atuação agrega um ciclo de planejamento e idealização, seguindo pelo desenvolvimento até o feedback do resultado final. | [@EuricoAbreu](https://github.com/EuricoAbreu) | [@MtsSrs](https://github.com/MtsSrs)
+Desenvolvedores | Os Desenvolvedores são as pessoas da Scrum Team que estão empenhados em criar qualquer aspecto de um Increment utilizável em cada Sprint. | [@EuricoAbreu](https://github.com/EuricoAbreu), [@Fellipepcs](https://github.com/Fellipepcs) | [@phnog](https://github.com/phnog), [@iagocabral](https://github.com/iagocabral) | [@murilopbs](https://github.com/murilopbs), [@Alladin-51](https://github.com/Alladin-51), [@Charles-serafim](https://github.com/charles-serafim)
 
 ### Bibliografia
 

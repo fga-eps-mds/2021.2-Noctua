@@ -7,18 +7,21 @@ Data | Versão | Descrição | Autor
 07/02/2022 | 1.1 | Atualização do TAP | [@Julio-eng](https://github.com/Julio-eng) / [@Alladin-51](https://github.com/Alladin-51)
 22/02/2022 | 1.2 | Atualização do TAP | [@MatheusHenrickSantos](https://github.com/MatheusHenrickSantos) / [@Alladin-51](https://github.com/Alladin-51)
 06/03/2022 | 1.3 | Atualização do TAP | [@phnog](https://github.com/phnog)
-03/04/2022 | 1.4 | Revisao e Atualização do TAP | [@phnog](https://github.com/phnog)
+03/04/2022 | 1.4 | Revisão e Atualização do TAP | [@phnog](https://github.com/phnog)
+18/04/2022 | 1.5 | Revisão e atualização do TAP | [@MatheusPerillo](https://github.com/MatheusPerillo)
+25/04/2022 | 1.6 | Revisão e atualização do TAP | [@MatheusPerillo](https://github.com/MatheusPerillo)
+
 ## 1. Introdução
-Este documento tem como finalidade destacar o foco do projeto, mostrando o objetivo, as entregas, a duração de cada tarefa, as estimativas de custo e os riscos envolvidos.
+Este documento tem como finalidade destacar o foco do projeto, mostrando o objetivo, partes interessadas (usuários e os envolvidos no desenvolvimento), as entregas, a duração de cada tarefa, as estimativas de custo e os riscos envolvidos.
 
 
 ## 2. Visão geral
 
 ### 2.1. Projeto
-O projeto visa utilizar dados disponibilizados no site [brasil.io](https://brasil.io/home/) e depois de tratados realizar a confecção de dashboards (Painel visual que apresenta, de maneira centralizada, um conjunto de indicadores e suas métricas).
+O projeto visa utilizar dados disponibilizados no site [brasil.io](https://brasil.io/home/) e depois de tratados realizar a confecção de dashboards (painéis visuais que apresenta, de maneira centralizada, um conjunto de indicadores e suas métricas).
 
 ### 2.2. Produto
-O produto consiste em um portal, voltado para usuarios em busca de informacao, que disponibiliza de forma gráfica e simplificada, dados sobre os gastos dos deputados.
+O produto consiste em um portal, voltado para usuários em busca de informação, que disponibiliza de forma gráfica e simplificada, dados sobre os Gastos dos deputados, Salário dos Magistrados e dados sobre as eleições brasileiras.
 
 ## 3. Escopo
 ### 3.1. Objetivos
@@ -26,23 +29,24 @@ O produto consiste em um portal, voltado para usuarios em busca de informacao, q
 O objetivo mor do projeto é facilitar a relação dados/usuário, trazendo a transparência para leitura de informações. A mediação será feita por intermédio de um produto que coadjuve no melhor entendimento de uma grande quantidade de dados.
 
 ### 3.2. Requerimentos de alto nivel
-A tabela abaixo apresenta os requerimentos que o projeto/pruduto deve atingir para que os objetivos do projeto/cliente sejam satisfeitos.
+A tabela abaixo apresenta os requerimentos que o projeto/produto deve atingir para que os objetivos do projeto/cliente sejam satisfeitos.
+
 Requerimento | Descrição
 ---|---
-RF1 | Permitir que o usuário possa pesquisar dados
-RF2	| Criar um histórico de pesquisa da sessão
-RF3	| Permitir feedback do usuário via formulário
-RF5	| Permitir que o usuário possa aplicar filtros nas pesquisas
+RF4 | Salvar no banco de dados as informações que serão exibidas
 RF6	| Gerar gráficos dos dados de acordo com a necessidade
+RF7	| Buscar dados na api Brasil.io caso não estejam salvos no banco
+RF8	| Verificar se o dado requisitado já está salvo no banco
 
 ### 3.3. Principais entregas
 Data | Descrição 
 ---|---
 08/03/2022 | Release 01: Entrega da documentação com uma pequena demosntração do produto
 26/04/2022 | Release 02: Entrega do minimal valuable product (MVP) e do proof of concept (Poc)
+
 ## 4. Duração
 
-Inicialmente, foi definido que o tempo de duração do projeto é de 3,27 meses (99 dias), tendo início no dia 18/01/2022 e fim no dia 26/04/2022. .
+Inicialmente, foi definido que o tempo de duração do projeto é de 3,27 meses (99 dias), tendo início no dia 18/01/2022 e fim no dia 26/04/2022.
 
 Sprint | Início | Fim
 ---|---|---
@@ -68,15 +72,17 @@ Comunicação dentro dos squads | Fazer uso das ferramentas de comunicação (Wh
 Comunicação entre squads | Fazer uso das ferramentas de comunicação (Whatsapp/Telegram/Discord) entre os squads e reuniões semanais.
 Desistência | Estimular a participação e evitar a sobrecarga dos membros dos squads. E em caso de desistência o grupo deve ser reorganizado.
 Problemas pessoais e de saúde | Organizar o grupo para que, no caso de ausência de um membro, outro assumir.
+
 ## 7. Organização do projeto
 ### 7.1. Equipe envolvida
-Papel | Responsabilidade | Time ? | Time B | Time ?  |
+
+Papel | Responsabilidade | Time A | Time B | Time C  |
 ---|---|---|---|---|
-Scrum Master | O Scrum Master é responsável pela implementação do Scrum tal como definido no Guia do Scrum. Ajudando todos a compreender a teoria e a prática do Scrum, tanto dentro da Scrum Team como dentro da organização. |[@Charles-serafim](https://github.com/charles-serafim)| [@MateusCaltabiano](https://github.com/MateusCaltabiano)
-Product Owner | O Product Owner é responsável por maximizar o valor do produto resultante do trabalho da Scrum Team. O Product Owner é também responsável pela gestão eficaz do Product Backlog. | [@Julio-eng](https://github.com/Julio-eng) | [@MatheusPerillo](https://github.com/MatheusPerillo)
-Arquiteto de Software | Este profissional é responsável por garantir o seguimento das diretrizes de um projeto de desenvolvimento de software que normalmente são: qualidade dos sistemas, contexto organizacional, funcionalidade, usabilidade, performance, desempenho e baixo custo de investimento. | [@ian-dcg](https://github.com/ian-dcg)   | [@CorreiaJV](https://github.com/CorreiaJV)
-Devops | O devOps permite a integração das equipes, padronizando e implementando mais velocidade nos processos. Sua atuação agrega um ciclo de planejamento e idealização, seguindo pelo desenvolvimento até o feedback do resultado final. | | [@MtsSrs](https://github.com/MtsSrs)
-Desenvolvedores | Os Desenvolvedores são as pessoas da Scrum Team que estão empenhados em criar qualquer aspecto de um Increment utilizável em cada Sprint. | [@Alladin-51](https://github.com/Alladin-51), [@MatheusHenrickSantos](https://github.com/MatheusHenrickSantos),  [@murilopbs](https://github.com/murilopbs) | [@phnog](https://github.com/phnog), [@iagocabral](https://github.com/iagocabral)
+Scrum Master | O Scrum Master é responsável pela implementação do Scrum tal como definido no Guia do Scrum. Ajudando todos a compreender a teoria e a prática do Scrum, tanto dentro da Scrum Team como dentro da organização. | [@lucascard](https://github.com/lucascard) | [@MateusCaltabiano](https://github.com/MateusCaltabiano)
+Product Owner | O Product Owner é responsável por maximizar o valor do produto resultante do trabalho da Scrum Team. O Product Owner é também responsável pela gestão eficaz do Product Backlog. | [@matheusmsvieira](https://github.com/matheusmsvieira) | [@MatheusPerillo](https://github.com/MatheusPerillo) | [@Julio-eng](https://github.com/Julio-eng)
+Arquiteto de Software | Este profissional é responsável por garantir o seguimento das diretrizes de um projeto de desenvolvimento de software que normalmente são: qualidade dos sistemas, contexto organizacional, funcionalidade, usabilidade, performance, desempenho e baixo custo de investimento. |  | [@CorreiaJV](https://github.com/CorreiaJV) | [@ian-dcg](https://github.com/ian-dcg)
+Devops | O devOps permite a integração das equipes, padronizando e implementando mais velocidade nos processos. Sua atuação agrega um ciclo de planejamento e idealização, seguindo pelo desenvolvimento até o feedback do resultado final. | [@EuricoAbreu](https://github.com/EuricoAbreu) | [@MtsSrs](https://github.com/MtsSrs)
+Desenvolvedores | Os Desenvolvedores são as pessoas da Scrum Team que estão empenhados em criar qualquer aspecto de um Increment utilizável em cada Sprint. | [@EuricoAbreu](https://github.com/EuricoAbreu), [@Fellipepcs](https://github.com/Fellipepcs) | [@phnog](https://github.com/phnog), [@iagocabral](https://github.com/iagocabral) | [@murilopbs](https://github.com/murilopbs), [@Alladin-51](https://github.com/Alladin-51), [@Charles-serafim](https://github.com/charles-serafim)
 ### 7.2. Stakeholders
 
 Nome | Descrição 
