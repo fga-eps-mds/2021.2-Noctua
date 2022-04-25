@@ -1,11 +1,11 @@
 import React from 'react';
-import PowerBiReport from './PowerBiReport';
+import MetabaseReport from './MetabaseReport';
 
 
 const  GastosDeputados=()=> {
   return (
     <>
-      <PowerBiReport/>
+      <MetabaseReport/>
     </>
   );
 }
