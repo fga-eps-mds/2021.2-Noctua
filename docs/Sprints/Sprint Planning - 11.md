@@ -10,3 +10,15 @@ Duração: 7 dias
 * Configurar metabase no docker
 * Fazer testes unitários de e-mail
 * Revisar documentos
+
+## Sprint backlog
+
+* Revisão e atualização de documentos
+* Implementação do metabase
+* Atualização do Documento de arquitetura
+* Atualização do Casos de uso
+* Criação do script do teste unitario do Email
+* Criação da pasta jest
+* Teste unitario email
+* Documentar Sprint Review 10
+* Documentar Sprint Planning 10
