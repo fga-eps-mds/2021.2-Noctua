@@ -10,6 +10,7 @@ Data|Versão|Descrição|Autor
 06/03/2022|1.2|Adição diagrama casos de uso|Iago Cabral
 06/03/2022|1.2.1|Adição do tópico diagrama de pacotes e atualização da visão lógica|João Victor Correia
 18/04/2022|1.3|Mudança de tecnologia da ferramenta de BI e atualização da visão lógica|João Victor Correia
+25/04/2022|1.3.1|Adicionado tópicos ao diagrama de pacotes|Iago Cabral, Pedro Henrique Nogueira
 
 
 
@@ -133,8 +134,8 @@ Abreviação|Significado
 <p align = "justify"> &emsp;&emsp; O sistema será desenvolvido utilizando o NodeJs, o React e Metabase para análise de dados. Irão se comunicar através da API REST fornecida pelo backend do sistema. </p>
 
 #### 4.1.1 Diagrama de Pacotes
-![Diagrama de Pacotes](img/diagrama_de_pacotes_front.png)
-![Diagrama de Pacotes](img/diagrama_de_pacotes_back.png)
+![Diagrama de Pacotes](https://github.com/fga-eps-mds/2021.2-Noctua/blob/main/docs/img/diagrama_de_pacotes_back.png?raw=true)
+![Diagrama de Pacotes](https://github.com/fga-eps-mds/2021.2-Noctua/blob/main/docs/img/diagrama_de_pacotes_front.png?raw=true)
 
 - **Frontend**
     - **React**: framework para desenvolvimento web.
@@ -150,6 +151,7 @@ Abreviação|Significado
             - **Components**: Diretório onde são criados os componentes que serão utilizados e compartilhados pelas páginas. 
             - **Services**: Diretório que contém os arquivos que vão acessar a API/Back-end
             - **Public**: Diretório que contém os arquivos públicos da aplicação como imagens, ícones, fontes, etc.
+            - **cypress**: Diretórios de testes automatizados.
 
 - **Backend**
     - **Node.js**: ambiente de execução Javascript server-side.
@@ -164,7 +166,7 @@ Abreviação|Significado
             - **Routes**: mapeia as rotas e disponibiliza os endpoints da API.
             - **database.ts**: Arquivo de configuração e conexão do banco de dados.
             - **server.ts**: Arquivo inicial do servidor que faz o intermedio do banco e a API.
-    
+    - **jest**: Diretório contendo os testes unitários.
     - **MongoDB**: banco de dados da aplicação.
 ## 5. Visão de Casos de Uso
 
@@ -177,7 +179,7 @@ Abreviação|Significado
 <p align = "justify"> &emsp;&emsp; Recebe informações diretas do usuário podendo ser um relatório de problema ou um feedback.</p>
 
 ### 5.2 Diagrama de Casos de Uso
-![Diagrama de Casos de Uso](img/diagrama_casos_de_uso.png)
+![Diagrama de Casos de Uso](https://raw.githubusercontent.com/fga-eps-mds/2021.2-Noctua/73d96ab18d757a74912776e1a37f21e68c33da91/docs/img/diagrama_casos_de_uso.png)
 
 ### Referências
 
