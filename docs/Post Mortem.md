@@ -14,3 +14,10 @@ Este documento visa dar uma breve finalização para a matéria Métodos de Dese
 * Estudo e uso prático de importantes métodos ágeis
 * Conseguimos finalizar o projeto (com algumas soluções de contorno)
 * Issues bem divididas
+
+### Pontos negativos
+
+* O projeto foi iniciado de maneira desorganizada
+* A comunicação entre os grupos foi escassa
+* Achávamos que os grupos iriam fazer projetos separados, mas com a mesma ideia, e ao descobrirmos que faríamos juntos acabamos ficando um pouco desmotivados por termos que nos reorganizar
+* Retirada da matéria de alguns membros da equipe
