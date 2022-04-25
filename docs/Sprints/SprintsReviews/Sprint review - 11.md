@@ -22,3 +22,7 @@ Duração: 7 dias
 
 * Entrosamento
 * Determinação
+
+## Análise do Scrum Master
+
+Finalizamos a penúltima sprint do projeto satisfeitos com o andamento da finalização. Estamos confiantes para a entrega da Release 2 e nossas merecidas férias após uma longa e cansativa jornada mas que no fim será recompensadora.
