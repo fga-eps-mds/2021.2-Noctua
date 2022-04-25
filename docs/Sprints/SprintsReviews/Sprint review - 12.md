@@ -23,3 +23,7 @@ Duração: 7 dias
 * Determinação para finalizar o trabalho
 * Organização
 * Sentimento de ter finalizado o projeto
+
+## Pontos negativos
+
+* Cansaço de fim de semestre
