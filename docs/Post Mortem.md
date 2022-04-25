@@ -21,3 +21,7 @@ Este documento visa dar uma breve finalização para a matéria Métodos de Dese
 * A comunicação entre os grupos foi escassa
 * Achávamos que os grupos iriam fazer projetos separados, mas com a mesma ideia, e ao descobrirmos que faríamos juntos acabamos ficando um pouco desmotivados por termos que nos reorganizar
 * Retirada da matéria de alguns membros da equipe
+
+### Ideias não concretizadas
+
+Seguem algumas ideias que tivemos para o projeto mas acabaram não podendo ser concretizadas
