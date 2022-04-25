@@ -57,7 +57,7 @@ Dificuldade na busca de dados sobre candidatos|O Processo Eleitoral|Eleição de
 
 ### 2.3 Posição do produto
 
-&emsp;&emsp;Destinado para qualquer um que tenha o interesse de visualizar os dados disponibilizados, mas especialmente pensado para facilitar pesquisas e afins. O (nome) é um aplicativo/site que junta e mostra dados para uma fácil interpretação. De outro modo, pode ser utilizado o (nome do concorrente), mas nosso produto possibilita uma (principal diferencial do produto).
+&emsp;&emsp;Destinado para qualquer um que tenha o interesse de visualizar os dados disponibilizados, mas especialmente pensado para facilitar pesquisas e afins. O Noctua é um aplicativo/site que junta e mostra dados para uma fácil interpretação.
 
 ## 3 Descrições da Parte Interessada e do Usuário
 ### 3.1 Resumo dos envolvidos
