@@ -31,3 +31,7 @@ Seguem algumas ideias que tivemos para o projeto mas acabaram não podendo ser c
 Inicialmente a ideia era fazer o tratamento dos dados utilizando a ferramenta da Microsoft e achamos que seria interessante trazer nosso resultado final com ela
 
 ![](https://i.imgur.com/zKsSOk2.png)
+
+#### Arquitetura do projeto
+
+Para a arquitetura do projeto, o ideal seria uma automação da requisição dos dados caso eles não estejam no banco de dados. A forma como implementamos já preenche nosso banco de dados por completo utilizando o csv disponibilizado. Essa ideia está bem detalhada no nosso documento de arquitetura, na parte de visão lógica.
