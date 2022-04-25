@@ -1,7 +1,5 @@
 import React from "react";
-import { PowerBIEmbed } from 'powerbi-client-react';
-import { models } from 'powerbi-client';
-import './css/PowerBI.css';
+import './css/Metabase.css';
 import { Center } from "@chakra-ui/react";
 // you will need to install via 'npm install jsonwebtoken' or in your package.json
 
@@ -25,7 +23,7 @@ const MetabaseReport = () => {
         <iframe
         title = "Dashboard Gastos dos deputados"
     src={iframeUrl}
-    width='1250rem'
+    width='1500rem'
     height={600}
     allowTransparency
 />
