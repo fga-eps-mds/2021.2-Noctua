@@ -27,3 +27,7 @@ Duração: 7 dias
 ## Pontos negativos
 
 * Cansaço de fim de semestre
+
+## Análise do Scrum Master
+
+Finalizando a entrega da nossa segunda release vejo que o time evoluiu bastante ao longo do semestre e definitivamente conseguimos tirar bons aprendizados da matéria. A finalização da segunda release foi bem mais organizada do que a primeira, conseguimos dividir melhor as issues ao longo das sprints. Estamos definitivamente satisfeitos com nosso projeto final. Tivemos que modificar algumas coisas ao longo do tempo, mas, no geral, saiu como planejado.
