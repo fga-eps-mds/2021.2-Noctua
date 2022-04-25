@@ -23,7 +23,7 @@ const MetabaseReport = () => {
         <iframe
         title = "Dashboard Gastos dos deputados"
     src={iframeUrl}
-    width='1500rem'
+    width='1250rem'
     height={600}
     allowTransparency
 />
