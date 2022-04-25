@@ -1,6 +1,7 @@
 import { Request, Response, Router } from 'express';
 import CotaParlamentarController from '../controller/CotaParlamentarController';
 import EmailController from '../controller/EmailController';
+import SalarioDosMagistradosController from '../controller/SalarioDosMagistradosController';
 
 const router = Router();
 
@@ -27,4 +28,16 @@ router.delete("/deleteCotaParlamentar",(req: Request, res: Response) => {
    cotaParlamentarController.deleteAll(req,res);
 });
 
+//Rotas para Salario dos magistrados
+const salarioDosMagistrados = new SalarioDosMagistradosController();
+
+router.post("/insereSalarioMagistrados",(req: Request, res: Response) => {
+    salarioDosMagistrados.index(req,res);
+});
+router.get("/getSalarioMagistrados",(req: Request, res: Response) => {
+    salarioDosMagistrados.getDataPageable(req,res);
+});
+router.delete("/deleteSalarioMagistrados",(req: Request, res: Response) => {
+    salarioDosMagistrados.deleteAll(req,res);
+});
 export default router;
