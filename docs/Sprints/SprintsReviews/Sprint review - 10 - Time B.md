@@ -1,4 +1,4 @@
-# Sprint review - 10
+# Sprint review - 10 - Time B
 
 Início: 05/04/2022
 Fim: 12/04/2022
