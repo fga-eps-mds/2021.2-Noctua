@@ -77,3 +77,13 @@ No começo da matéria, eu achei que seria mais uma matéria normal onde em um f
 Sobre o projeto, eu me senti bem perdido no começo do projeto já que não tinha muito conhecimento alem de OO e nem muita experiencia em projetos de software, mas graças ao meu time, consegui encontrar um rumo e resolver todas as dificuldades que eu estava tendo alem aprender muito com todos eles. Alem disso, eu consegui aprender a ser uma pessoa muito mais organizada e prestar muito mais antedão nos prazos de entrega.
 
 Por fim, só gostaria de agradecer a todos que participaram comigo desse desafio e que facilitaram ele. 
+
+#### Matheus Perillo - Product Owner - Time B
+
+Iniciei esse semestre com a mentalidade de sair da minha zona de conforto e me desafiar. Entrei para a EJ de Software Orc'estra Gamificação onde tenho aprimorado minhas habilidades de código. Me matriculei na matéria de MDS ouvindo de outras pessoas que era uma das matérias mais difíceis e importantes do curso de ESW. 
+
+Comecei o semestre bem animado, no entanto ao decorrer do semestre me deparei com diversos problemas fora da faculdade que me desanimaram bastante, e consequemente, minha produtividade caiu drasticamente. Tentei de diversas maneiras contornar as situações adversas para conseguir cumprir com todas as demandas que me eram passadas da disciplina. Por sorte, meu grupo (família) foi um ponto muito importante para que eu conseguisse seguir em frente e não desistir. Aprendi mais ainda com cada um neste projeto e tenho um orgulho imenso de fazer parte deste time.
+
+Sobre o Noctua, foi um projeto que me trouxe muitas alegrias e aprendizados. Pude colocar um pouco da minha identidade no projeto, assim como cada um pôde. Não tive muitas dificuldades no projeto por ter chegado com as minhas soft skills bem aprimoradas, apesar de ter focado mais na área (front) que tenho mais facilidade. As metodologias ágeis foram muito importantes para que eu conseguisse entregar todas as demandas, porque quando me via desmotivado enxergava nas metodologias uma maneira de me forçar a cumprir com as minhas tarefas e não decepcionar meu grupo. Confesso que muitas vezes acabei decepcionando, mas sempre era amparado por eles, e por isso meu respeito e lealdade a eles aumentou muito mais. 
+
+Por fim, agradeço de coração a este time F@!# que fizeram essa matéria ser leve e divertida na maior parte do tempo. Meu mais sincero OBRIGADO a todos os envolvidos, perillove ama vocês!!
