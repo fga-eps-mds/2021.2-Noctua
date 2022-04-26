@@ -84,6 +84,9 @@ $ docker-compose -f docker-compose.dev.yml build
 
 # Rodando o docker para dev
 $ docker-compose -f docker-compose.dev.yml up
+
+# Rodando teste unitario
+$ yarn jest-test 
 ```
 Ao rodar o código a *porta 3000* estará aberta para o uso da aplicação e a *porta 5000* para chamadas da api.
 
