@@ -36,7 +36,7 @@ Inicialmente a ideia era fazer o tratamento dos dados utilizando a ferramenta da
 
 Para a arquitetura do projeto, o ideal seria uma automação da requisição dos dados caso eles não estejam no banco de dados. A forma como implementamos já preenche nosso banco de dados por completo utilizando o csv disponibilizado. Essa ideia está bem detalhada no nosso documento de arquitetura, na parte de visão lógica.
 
-### Considerações finais dos membros
+### Considerações finais de alguns membros
 
 #### Matheus Soares - DevOps - Time B
 
@@ -56,4 +56,14 @@ Sobre meu trabalho como Scrum Master, não fiquei totalmente satisfeito. Poderia
 
 Sobre o projeto, fiquei feliz com a maneira que ele foi finalizado. Foi um caminho que se provou bem sinuoso em certas partes, mas o time se provou sprint atrás de sprint. A divisão de issues pra mim foi uma evolução muito clara da release 1 para a release 2. A semana antes da entrega da release 1 foi bem cansativa e acabou tomando nosso feriado de carnaval quase todo. Para a release 2, tivemos que dar aquele gás final, mas conseguimos manejar o tempo muito melhor do que a primeira.
 
-Por fim, quero agradecer a todos que contribuíram no projeto e se dedicaram para que ele pudesse se concretizar. 
+Por fim, quero agradecer a todos que contribuíram no projeto e se dedicaram para que ele pudesse se concretizar.
+
+#### João Victor - Arquiteto de Software - Time B
+
+Ao entrar no curso de Engenharia de Software já escutava dos veteranos comentando o quanto MDS era um divisor de águas do curso, confesso que estou feliz por ter conseguido completar esse projeto.
+
+No início do projeto eu era o que tinha mais conhecimento técnico por ter tido experiências com desenvolvimento fora da faculdade e isso foi uma força muito grande para a realização do projeto. Atuei como arquiteto de software e foi muito significativo poder mostrar os caminhos que poderiamos seguir e sentir a confiança da equipe em mim e no projeto. Acredito que eu me doei muito nesse projeto devido as pessoas que estavam comigo, vi a vontade que elas tinham de aprender e isso me deu forças para fazer além das minhas demandas, era gratificante ajudar em outras issues, quebrar a cabeça em conjunto e aprender coisas novas. 
+
+Sobre o projeto, acredito que poderia ter sido implementado algo muito mais "poderoso", porém focamos muito no aprendizado e crescimento do grupo e isso foi incrível. Começamos como um grupo de 6 estudantes e saímos um grupo de amigos que desenvolveram uma plataforma, os laços criados foram surpreendentes, sempre escutei que havia muito conflitos nos grupos de MDS e felizmente isso não ocorreu com o nosso. A união realmente compensou a falta de conhecimento e fez a força nesse projeto.
+
+Quero agradecer a todos que fizeram a matéria "mais díficil" do curso ser algo que realmente acrescentou na minha carreira enquanto desenvolvedor e estudante.
