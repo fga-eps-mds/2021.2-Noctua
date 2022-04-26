@@ -6,6 +6,7 @@
 |--|--|--|--|
 |08/03/2022|1.0|Criação do documento | [@phnog](https://github.com/phnog) |
 |19/04/2022|1.1|Correções gramaticais | [@EuricoAbreu](https://github.com/EuricoAbreu) |
+|25/04/2022|1.1|Atualização do documento | [@phnog](https://github.com/phnog) |
 
 ## 1 Introdução
 <p align = "justify"> &emsp;&emsp; Este documento trata acerca do guia de estilo e manual de identdade visual do projeto.</p>
@@ -30,5 +31,12 @@
 ![CoresSite](https://cdn.discordapp.com/attachments/744698026462937211/950165055767457792/unknown.png)
 ![CoreLogo](https://cdn.discordapp.com/attachments/744698026462937211/950165089686806528/unknown.png)
 
+
+### 5 Componentes 
+### 5.1 Botões 
+
+![BotaoDados](https://media.discordapp.net/attachments/429470314716725258/968294693093916722/unknown.png)
+![BotaoFAQ](https://media.discordapp.net/attachments/429470314716725258/968294410251026462/unknown.png)
+![BotaoDados](https://media.discordapp.net/attachments/429470314716725258/968294363882991626/unknown.png)
 
 
