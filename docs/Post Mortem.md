@@ -68,7 +68,12 @@ Sobre o projeto, acredito que poderia ter sido implementado algo muito mais "pod
 
 Quero agradecer a todos que fizeram a matéria "mais díficil" do curso ser algo que realmente acrescentou na minha carreira enquanto desenvolvedor e estudante.
 
+#### Pedro Henrique Nogueira - Dev - Time B
+
 O começo desse semestre foi meio conturbado para mim, eu não sabia se Engenharia de Software era realmente o que eu queria fazer, talvez por esses período de pandemia onde eu acabei não aprendendo muito e nem tendo muita experiencia me desmotivaram muito desse curso. Quando a matéria MDS começou eu vi como uma oportunidade para ver se eu realmente queria continuar nesse curso ou não.
+
 No começo da matéria, eu achei que seria mais uma matéria normal onde em um final de semana a gente ia completar o trabalho e enviar. Mas logo de cara, eu percebi que não seria tão fácil quanto imaginei, começando com o fato de nosso grupo inicial, que já tinha bastante entrosamento, teria que trabalhar com mais 12 pessoas desconhecidas, outra coisa que tive muita dificuldade foi com reuniões diárias, ainda mas que nesse semestre eu consegui um estagio, então o pouco tempo que eu tinha era destinado para MDS e não para as coisas que eu curtia fazer.
+
 Sobre o projeto, eu me senti bem perdido no começo do projeto já que não tinha muito conhecimento alem de OO e nem muita experiencia em projetos de software, mas graças ao meu time, consegui encontrar um rumo e resolver todas as dificuldades que eu estava tendo alem aprender muito com todos eles. Alem disso, eu consegui aprender a ser uma pessoa muito mais organizada e prestar muito mais antedão nos prazos de entrega.
-Por fim, só gostaria de agradecer a todos que participaram comigo desse desafio e que facilitaram ele.
+
+Por fim, só gostaria de agradecer a todos que participaram comigo desse desafio e que facilitaram ele. 
