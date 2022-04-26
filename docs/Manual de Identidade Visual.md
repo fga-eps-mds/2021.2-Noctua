@@ -38,5 +38,12 @@
 ![BotaoDados](https://media.discordapp.net/attachments/429470314716725258/968294693093916722/unknown.png)
 ![BotaoFAQ](https://media.discordapp.net/attachments/429470314716725258/968294410251026462/unknown.png)
 ![BotaoDados](https://media.discordapp.net/attachments/429470314716725258/968294363882991626/unknown.png)
+![Links](https://cdn.discordapp.com/attachments/429470314716725258/968308549526630441/unknown.png)
 
+### 5.2 FAQ
 
+![MenuFAQ](https://media.discordapp.net/attachments/429470314716725258/968308373529460736/unknown.png)
+
+### 5.2 Fale Conosco.
+
+![FaleConosco](https://media.discordapp.net/attachments/429470314716725258/968294596956291102/unknown.png)
